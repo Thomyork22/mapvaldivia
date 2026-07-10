@@ -1,0 +1,15 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+.env
+client/.env
+server/.env
+client/.env.production
+*.env.local
+client/dist/
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+.claude/settings.local.json

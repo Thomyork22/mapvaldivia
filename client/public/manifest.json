@@ -1,0 +1,13 @@
+{
+  "name": "MapValdivia",
+  "short_name": "MapValdivia",
+  "description": "Descubre la gastronomía auténtica de Valdivia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1C1B18",
+  "theme_color": "#A97A3C",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

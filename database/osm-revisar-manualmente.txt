@@ -1,0 +1,160 @@
+Bar Doña Inés | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/529774160
+Cava del Buho | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/529775572
+Shanghai | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=chinese | osm=node/529776371
+Otto Sandwich | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/1183468453
+Doggis | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/1314278176
+Al Capone | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1314280645
+Lucky 7 | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/1314280646
+Sky Bar | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/1314280647
+Pub Restobar Strike | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/1314281558
+Villa del Río | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1314295150
+Alondra | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1314295159
+Quo Vadis | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1314295160
+Club De La Unión | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1314310293
+La Cabaña | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1314310309
+Zona Zero | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/1361030117
+Zona Cero | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/1361030120
+Toscana | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1362338230
+La Calabaza | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=pizza | osm=node/1363705007
+El Turkito | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1371710347
+DCosta | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=peruvian | osm=node/1371719353
+Naturalia Kororü & Salad | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1373251168
+Casino UACH | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1374009407
+Universidad Austral | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1375095885
+Universidad Austral | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1375315840
+Restaurant | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1378233566
+Los Vecinos | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/1383868247
+Onde la Meme | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1388022915
+Das Haus' 1959 | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=german | osm=node/1401843249
+Cafetería Veterinaria | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1430659261
+Sésamo | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/1437138503
+Bar | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/1613830857
+Di Baron | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1617305613
+Madero Restobar | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/1689112719
+Phoenix | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/1761748528
+Universidad Austral | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/1909961660
+Maranatha | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/2461166027
+Cafe | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=american | osm=node/2679719997
+Antojo Valdiviano | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/2824784111
+Garage | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger | osm=node/2857519545
+Punto Clave | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/2988962640
+Club Sala Murano | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/3672250811
+Kiosko Federación | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/4124532850
+Río Bar | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/4286211010
+Punto de Quiebre | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/4286218704
+Río Roll | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=japanese | osm=node/4313477646
+Nikkei | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=sushi | osm=node/4328568261
+Dulce Ríos | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich;friture | osm=node/4330168575
+Café Bar Escorpión Rojo | sector=Centro | categoria_id=2 | amenity=bar | cuisine=regional | osm=node/4330169882
+La Moneda | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/4330189151
+Con Tomate y Mayo | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=sandwich;pizza;tablas;cervezas;almuerzos;tragos_nacionales | osm=node/4337932633
+Al Paso | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/4337940414
+La Posada | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/4337946641
+El Rincón de ? | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=regional | osm=node/4341865337
+El Shaddai | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/4341886902
+Los Leños | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4341888923
+SantaArepa | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sushi | osm=node/4353359398
+El Molino | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4353384722
+Musstang | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/4367830691
+quinta las brizas | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4381096389
+Guacamole | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4444437801
+Restaurant Costanera | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4444437891
+Fuente Valdiviana | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4553124389
+La Posada | sector=Las Ánimas | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/4558492696
+El Rincón de la Abuela | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/4763435922
+Donde Yayo | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/4829667908
+Nonna Clara Pizzería | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=pizza | osm=node/5072580222
+Nonna Clara Repostería | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=pancake | osm=node/5072580223
+Carrito | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/5287949732
+Señora Juanita | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/5287949733
+Producciones Nicook | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/5287949734
+Pewen | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/5287949738
+Comida Rapida El Bajon | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger;sandwich | osm=node/5288977473
+Donde el Tata | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=steak_house | osm=node/5288977944
+Pollos Schüler | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger;chicken;fish_and_chips;regional | osm=node/5289004290
+Restaurany Los Ríos | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/5302681344
+Río Roll | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sushi | osm=node/5302681352
+Pedro, Juan & Diego | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger;sandwich | osm=node/5302681353
+Sabor de India | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=indian | osm=node/5302681653
+Tarragona | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger;chicken | osm=node/5302681654
+Cafeteria y Cocineria Los Rios | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=steak_house | osm=node/5302681724
+Juan Maestro | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger | osm=node/5303396340
+Tommy Beans | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=mexican | osm=node/5303396342
+Pedro, Juan y Diego | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger | osm=node/5303396343
+Buffet Express | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/5303404178
+El Chilenito | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/5343702329
+Restaurante La Abuela | sector=Corral | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/5427833121
+Feria Gastronómica Corral | sector=Corral | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/5427833221
+Don Rucio | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/6190595588
+Enki | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/6253636096
+Encuentro Valdiviano | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich;regional | osm=node/6281849486
+New Orleans | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/7018352985
+Cervecería Mawida | sector=Centro | categoria_id=2 | amenity=bar | cuisine=pizza | osm=node/7884252886
+El Tropezón | sector=Niebla | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/9359346322
+Pizzería Corazón Contento | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/9768684917
+Ubuntu - Lugar de Encuentros | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/9768685017
+Enki Vegan | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pizza | osm=node/9768685117
+450 Bar Pizzeria | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pizza | osm=node/10795405881
+La choza del Teba | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/11115123714
+Klasser Burger | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger;fries | osm=node/12069090157
+Donde La Mayo | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich;friture | osm=node/12088079453
+Toto | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich | osm=node/12365224282
+Churros | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/12396949534
+Club Ibiza | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/12507634180
+Al Yugo | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=node/12507634181
+Cafefit | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=node/12952972356
+Agualda | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=pizza | osm=node/13076545379
+Sushi An | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sushi;fries;japanese | osm=node/13233344170
+Ikigaisushi | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=japanese | osm=node/13288223714
+Under Pizza | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=pizza | osm=node/13301596637
+La Perla Negra | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/13685200401
+Valdiviana | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=node/13685200402
+Ansai Sushi | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=sushi | osm=node/13860814561
+Mar Azul | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=friture | osm=node/13987116202
+Yang Cheng | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=chinese | osm=way/124432950
+Camino de Luna | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/127263784
+La Casona | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/129384916
+Fogón Palestino | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/163548339
+Shot Karaoke | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/181669943
+Café Haussmann | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=german;sandwich | osm=way/360584382
+Papas Bravas | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/374420179
+Los Corelly | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=way/403859558
+Jota | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/403889803
+Mercato | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pasta;pizza;italian | osm=way/410346877
+Medieval | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/434946043
+Fodie | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=way/434950248
+Bar Gamer | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/435898979
+Grado 3 | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=japanese | osm=way/435899649
+City Bar | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/435900193
+Picamaderos | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/435900417
+Nuevo Campesino | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/435900860
+Bimba | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/436494491
+Chile Güey (Mexicana) | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=thai | osm=way/462199092
+1960 | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/463267573
+Salon Pool | sector=Niebla | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/478362884
+Tesoro del Mar | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/489067586
+Restaurant Escuela Liceo Tecnico | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/504127071
+Indio Pije | sector=Niebla | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/515100623
+La Terraza | sector=Niebla | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/515109590
+La Herradura | sector=Las Gaviotas | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/517476351
+Entre Faros | sector=Niebla | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/520371089
+Casa Negra | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/542667089
+La Cevichería | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/574636138
+La Picá de Cochrane | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/576877651
+Dasud | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pizza;pasta | osm=way/589974757
+La Pizzeria de Renzo | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pizza | osm=way/601893447
+Cava | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/619631422
+Mia | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/619631424
+Corazón Contento | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pizza | osm=way/744339569
+Animeños | sector=Centro | categoria_id=2 | amenity=bar | cuisine=(sin tag) | osm=way/771222199
+La Casona | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=fries;burger;sandwich;hot_dog | osm=way/772308053
+Pastas Trigo | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=pasta;soup | osm=way/772308054
+Valdi Lomits | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=sandwich;burger | osm=way/776815181
+Espacio Cocina | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/827234735
+Las Sabrosas | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=(sin tag) | osm=way/933649932
+Upita! | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=coffee_shop | osm=way/1014099094
+Apetitizos | sector=Centro | categoria_id=3 | amenity=fast_food | cuisine=burger | osm=way/1093454061
+La Parrilla de Thor | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=steak_house | osm=way/1112593530
+Medieval | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=(sin tag) | osm=way/1224661585
+Minory | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=chinese | osm=way/1347418444
+La Calesa | sector=Centro | categoria_id=3 | amenity=restaurant | cuisine=peruvian | osm=way/1497588826

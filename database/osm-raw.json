@@ -1,0 +1,4463 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-08T16:49:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 302716344,
+  "lat": -39.8369898,
+  "lon": -73.2782696,
+  "tags": {
+    "addr:housenumber": "950",
+    "addr:street": "Ruta T-350",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "brewery": "yes;various",
+    "cuisine": "german",
+    "internet_access": "wlan",
+    "name": "La Cerveceria Kunstmann",
+    "phone": "+56 63 292969",
+    "smoking": "no",
+    "website": "https://www.cerveza-kunstmann.cl/",
+    "wheelchair": "limited",
+    "wikidata": "Q680485",
+    "wikipedia": "es:Kunstmann"
+  }
+},
+{
+  "type": "node",
+  "id": 529774160,
+  "lat": -39.8116677,
+  "lon": -73.2460862,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Casino Mundo Dreams",
+    "addr:housenumber": "190",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "bar",
+    "name": "Bar Doña Inés"
+  }
+},
+{
+  "type": "node",
+  "id": 529774238,
+  "lat": -39.8166088,
+  "lon": -73.2425767,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Mall Plaza Los Rios",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "cafe",
+    "name": "Capuccino Co."
+  }
+},
+{
+  "type": "node",
+  "id": 529774456,
+  "lat": -39.8163291,
+  "lon": -73.2365503,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "903",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "fast_food",
+    "brand": "Papa John's",
+    "brand:wikidata": "Q2759586",
+    "brand:wikipedia": "en:Papa John's",
+    "cuisine": "pizza",
+    "name": "Papa John's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 529775424,
+  "lat": -39.8136780,
+  "lon": -73.2466936,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Paseo Libertad",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Moro's"
+  }
+},
+{
+  "type": "node",
+  "id": 529775528,
+  "lat": -39.8147547,
+  "lon": -73.2465132,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Maipú",
+    "amenity": "cafe",
+    "brewery": "Kunstmann;Guinness;Heineken",
+    "name": "Café de Luis",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 529775535,
+  "lat": -39.8150614,
+  "lon": -73.2463469,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "580",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "O'Higgins",
+    "amenity": "cafe",
+    "name": "Café Palace",
+    "wheelchair:description": "Tiene escalones al ingreso y baño en planta baja."
+  }
+},
+{
+  "type": "node",
+  "id": 529775572,
+  "lat": -39.8128843,
+  "lon": -73.2399231,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "660",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Alemania",
+    "amenity": "restaurant",
+    "name": "Cava del Buho"
+  }
+},
+{
+  "type": "node",
+  "id": 529776371,
+  "lat": -39.8151497,
+  "lon": -73.2365507,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Carlos Anwandter",
+    "amenity": "restaurant",
+    "cuisine": "chinese",
+    "name": "Shanghai"
+  }
+},
+{
+  "type": "node",
+  "id": 1183468453,
+  "lat": -39.8106438,
+  "lon": -73.2507764,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Gabriela Mistral",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Otto Sandwich"
+  }
+},
+{
+  "type": "node",
+  "id": 1314278176,
+  "lat": -39.8167786,
+  "lon": -73.2422127,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Mall Plaza Los Rios",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "level": "3",
+    "name": "Doggis"
+  }
+},
+{
+  "type": "node",
+  "id": 1314278204,
+  "lat": -39.8166505,
+  "lon": -73.2420607,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Mall Plaza Los Rios",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "fixme": "Correcciones masivas de nombres con mayúsculas",
+    "level": "3",
+    "name": "KFC",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1314280645,
+  "lat": -39.8116436,
+  "lon": -73.2464177,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Casino Mundo Dreams",
+    "addr:housenumber": "190",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "restaurant",
+    "name": "Al Capone"
+  }
+},
+{
+  "type": "node",
+  "id": 1314280646,
+  "lat": -39.8115282,
+  "lon": -73.2462354,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Casino Mundo Dreams",
+    "addr:housenumber": "190",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "bar",
+    "name": "Lucky 7"
+  }
+},
+{
+  "type": "node",
+  "id": 1314280647,
+  "lat": -39.8114858,
+  "lon": -73.2465722,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Casino Mundo Dreams",
+    "addr:housenumber": "190",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "bar",
+    "brewery": "yes",
+    "name": "Sky Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 1314281558,
+  "lat": -39.8117776,
+  "lon": -73.2455649,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housename": "Casino Mundo Dreams",
+    "addr:housenumber": "208",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "bar",
+    "name": "Pub Restobar Strike"
+  }
+},
+{
+  "type": "node",
+  "id": 1314295150,
+  "lat": -39.8079007,
+  "lon": -73.2359182,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1025",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida España",
+    "amenity": "restaurant",
+    "name": "Villa del Río"
+  }
+},
+{
+  "type": "node",
+  "id": 1314295159,
+  "lat": -39.8132047,
+  "lon": -73.2480025,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "425",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Arturo Prat",
+    "amenity": "restaurant",
+    "name": "Alondra"
+  }
+},
+{
+  "type": "node",
+  "id": 1314295160,
+  "lat": -39.8161847,
+  "lon": -73.2436815,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "693",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "restaurant",
+    "name": "Quo Vadis"
+  }
+},
+{
+  "type": "node",
+  "id": 1314310293,
+  "lat": -39.8146519,
+  "lon": -73.2455283,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "540",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "restaurant",
+    "name": "Club De La Unión"
+  }
+},
+{
+  "type": "node",
+  "id": 1314310309,
+  "lat": -39.8135854,
+  "lon": -73.2458204,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "236",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Letelier",
+    "amenity": "restaurant",
+    "name": "La Cabaña"
+  }
+},
+{
+  "type": "node",
+  "id": 1361030117,
+  "lat": -39.8190884,
+  "lon": -73.2477852,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lord Cochrane",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Zona Zero",
+    "name:es": "Zona cero"
+  }
+},
+{
+  "type": "node",
+  "id": 1361030120,
+  "lat": -39.8189209,
+  "lon": -73.2477799,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Zona Cero"
+  }
+},
+{
+  "type": "node",
+  "id": 1362338230,
+  "lat": -39.8164643,
+  "lon": -73.2351712,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Toscana"
+  }
+},
+{
+  "type": "node",
+  "id": 1363705007,
+  "lat": -39.8333273,
+  "lon": -73.2385024,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1770",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Italia",
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "La Calabaza",
+    "source": "http://www.lacalabaza.cl/es_inicio.php"
+  }
+},
+{
+  "type": "node",
+  "id": 1371710347,
+  "lat": -39.8197054,
+  "lon": -73.2428299,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "El Turkito"
+  }
+},
+{
+  "type": "node",
+  "id": 1371719353,
+  "lat": -39.8147747,
+  "lon": -73.2478228,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "102",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "restaurant",
+    "cuisine": "peruvian",
+    "name": "DCosta",
+    "note": "Tenedor Libre",
+    "operator": "Paul"
+  }
+},
+{
+  "type": "node",
+  "id": 1373251168,
+  "lat": -39.8161151,
+  "lon": -73.2478686,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "115",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lautaro",
+    "amenity": "restaurant",
+    "name": "Naturalia Kororü & Salad"
+  }
+},
+{
+  "type": "node",
+  "id": 1373289347,
+  "lat": -39.8106214,
+  "lon": -73.2551412,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "restaurant",
+    "cuisine": "regional;steak_house",
+    "name": "Fogón del Leñador",
+    "opening_hours": "Mo-Su 09:00-22:00",
+    "outdoor_seating": "yes",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 1374009407,
+  "lat": -39.8063610,
+  "lon": -73.2524622,
+  "tags": {
+    "amenity": "restaurant",
+    "internet_access": "wlan",
+    "name": "Casino UACH",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 1375095885,
+  "lat": -39.8075368,
+  "lon": -73.2469351,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Universidad Austral"
+  }
+},
+{
+  "type": "node",
+  "id": 1375295924,
+  "lat": -39.8199123,
+  "lon": -73.2430446,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lord Cochrane",
+    "amenity": "cafe",
+    "name": "Café Aroma"
+  }
+},
+{
+  "type": "node",
+  "id": 1375315840,
+  "lat": -39.8052227,
+  "lon": -73.2476995,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Universidad Austral"
+  }
+},
+{
+  "type": "node",
+  "id": 1376200205,
+  "lat": -39.8128338,
+  "lon": -73.2479068,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Cocinerías del Mercado"
+  }
+},
+{
+  "type": "node",
+  "id": 1378233566,
+  "lat": -39.8321860,
+  "lon": -73.2523372,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 1383868247,
+  "lat": -39.8364329,
+  "lon": -73.2402486,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Irlanda",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Los Vecinos"
+  }
+},
+{
+  "type": "node",
+  "id": 1385512124,
+  "lat": -39.8133813,
+  "lon": -73.2518131,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Calle Museo",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cafetería Philippi"
+  }
+},
+{
+  "type": "node",
+  "id": 1388022915,
+  "lat": -39.8155153,
+  "lon": -73.2480001,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Yungay",
+    "amenity": "restaurant",
+    "name": "Onde la Meme"
+  }
+},
+{
+  "type": "node",
+  "id": 1401843249,
+  "lat": -39.8127136,
+  "lon": -73.2458382,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "O'Higgins",
+    "amenity": "restaurant",
+    "cuisine": "german",
+    "name": "Das Haus' 1959",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1430659261,
+  "lat": -39.8040860,
+  "lon": -73.2530847,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Cafetería Veterinaria"
+  }
+},
+{
+  "type": "node",
+  "id": 1437138503,
+  "lat": -39.8222332,
+  "lon": -73.2400131,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1384",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Baquedano",
+    "amenity": "restaurant",
+    "diet:vegetarian": "yes",
+    "name": "Sésamo",
+    "phone": "+56992794001"
+  }
+},
+{
+  "type": "node",
+  "id": 1441559252,
+  "lat": -39.8131350,
+  "lon": -73.2436441,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Caupolicán",
+    "amenity": "cafe",
+    "name": "Refrán"
+  }
+},
+{
+  "type": "node",
+  "id": 1613830857,
+  "lat": -39.8384801,
+  "lon": -73.2102209,
+  "tags": {
+    "amenity": "bar",
+    "name": "Bar"
+  }
+},
+{
+  "type": "node",
+  "id": 1617305613,
+  "lat": -39.8118210,
+  "lon": -73.2407941,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Di Baron"
+  }
+},
+{
+  "type": "node",
+  "id": 1637297206,
+  "lat": -39.7529073,
+  "lon": -73.3898772,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Rukankura",
+    "phone": "+56 9 77590215"
+  }
+},
+{
+  "type": "node",
+  "id": 1689112719,
+  "lat": -39.8094455,
+  "lon": -73.2447515,
+  "tags": {
+    "amenity": "bar",
+    "name": "Madero Restobar"
+  }
+},
+{
+  "type": "node",
+  "id": 1761748528,
+  "lat": -39.8089877,
+  "lon": -73.2482913,
+  "tags": {
+    "addr:city": "Valdivia",
+    "amenity": "bar",
+    "name": "Phoenix",
+    "opening_hours": "Mo-Th 12:30-01:00, Fr,Sa 12:30-02:00, Su 12:30-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 1835699453,
+  "lat": -39.8147163,
+  "lon": -73.2452807,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Paseo Peatonal Camilo Henríquez",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;sandwich",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Der Baer",
+    "outdoor_seating": "yes",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 1909961660,
+  "lat": -39.8044032,
+  "lon": -73.2534260,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Universidad Austral"
+  }
+},
+{
+  "type": "node",
+  "id": 1913584462,
+  "lat": -39.8447430,
+  "lon": -73.3947899,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Aquarium"
+  }
+},
+{
+  "type": "node",
+  "id": 2132354177,
+  "lat": -39.8742354,
+  "lon": -73.3947572,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish",
+    "name": "Ona Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 2460021002,
+  "lat": -39.8172648,
+  "lon": -73.2407577,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "684-b",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "García Reyes",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "name": "Donceles",
+    "website": "http://www.donceles.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 2461166027,
+  "lat": -39.8181602,
+  "lon": -73.2446469,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "fast_food",
+    "name": "Maranatha"
+  }
+},
+{
+  "type": "node",
+  "id": 2643934627,
+  "lat": -39.8269127,
+  "lon": -73.2347724,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "restaurant",
+    "capacity": "50",
+    "cuisine": "regional",
+    "name": "Caupolicán (Los Mellados)",
+    "opening_hours": "10:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2679719997,
+  "lat": -39.8130880,
+  "lon": -73.2458966,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "O'Higgins",
+    "amenity": "fast_food",
+    "cuisine": "american",
+    "designation": "Doggi's",
+    "name": "Cafe",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2824748064,
+  "lat": -39.8171447,
+  "lon": -73.2344592,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1085",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "phone": "(63) 222 5796"
+  }
+},
+{
+  "type": "node",
+  "id": 2824784111,
+  "lat": -39.8287395,
+  "lon": -73.2373098,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1211",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "fast_food",
+    "name": "Antojo Valdiviano"
+  }
+},
+{
+  "type": "node",
+  "id": 2857519545,
+  "lat": -39.8214951,
+  "lon": -73.2433270,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Garage"
+  }
+},
+{
+  "type": "node",
+  "id": 2988962638,
+  "lat": -39.8419291,
+  "lon": -73.2285864,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 2988962639,
+  "lat": -39.8416561,
+  "lon": -73.2290542,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 2988962640,
+  "lat": -39.8415284,
+  "lon": -73.2287073,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Punto Clave"
+  }
+},
+{
+  "type": "node",
+  "id": 3672250811,
+  "lat": -39.8158518,
+  "lon": -73.2454896,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "648",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "bar",
+    "name": "Club Sala Murano",
+    "smoking": "isolated",
+    "website": "www.salamurano.cl"
+  }
+},
+{
+  "type": "node",
+  "id": 3978701773,
+  "lat": -39.8060463,
+  "lon": -73.2500999,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Rector Eduardo Morales Miranda",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Cafeteria Facultad de Ciencias",
+    "opening_hours": "Mo-Fr 10:00-19:30"
+  }
+},
+{
+  "type": "node",
+  "id": 3978728810,
+  "lat": -39.8194204,
+  "lon": -73.2428385,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "909",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "cafe",
+    "cuisine": "regional",
+    "name": "El Mordisco",
+    "phone": "063 2668350",
+    "website": "https://www.facebook.com/el.mordisco.valdivia"
+  }
+},
+{
+  "type": "node",
+  "id": 4124532850,
+  "lat": -39.8066980,
+  "lon": -73.2495240,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Kiosko Federación"
+  }
+},
+{
+  "type": "node",
+  "id": 4286211010,
+  "lat": -39.8125410,
+  "lon": -73.2452357,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "290",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Alemania",
+    "amenity": "bar",
+    "name": "Río Bar",
+    "opening_hours": "18:00-04:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4286218704,
+  "lat": -39.8118555,
+  "lon": -73.2453353,
+  "tags": {
+    "amenity": "bar",
+    "name": "Punto de Quiebre"
+  }
+},
+{
+  "type": "node",
+  "id": 4313477646,
+  "lat": -39.8223620,
+  "lon": -73.2399878,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "617",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Baquedano",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Río Roll",
+    "phone": "+56 63 225 3212",
+    "takeaway": "yes",
+    "website": "https://www.rioroll.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 4328568261,
+  "lat": -39.8250493,
+  "lon": -73.2393685,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Toribio Medina",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Nikkei",
+    "phone": "+56632200230"
+  }
+},
+{
+  "type": "node",
+  "id": 4330168575,
+  "lat": -39.8131833,
+  "lon": -73.2439155,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Caupolicán",
+    "amenity": "fast_food",
+    "cuisine": "sandwich;friture",
+    "name": "Dulce Ríos"
+  }
+},
+{
+  "type": "node",
+  "id": 4330169882,
+  "lat": -39.8124687,
+  "lon": -73.2444015,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Alemania",
+    "amenity": "bar",
+    "cuisine": "regional",
+    "name": "Café Bar Escorpión Rojo"
+  }
+},
+{
+  "type": "node",
+  "id": 4330184802,
+  "lat": -39.8130650,
+  "lon": -73.2448638,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Chacabuco",
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 4330189151,
+  "lat": -39.8133962,
+  "lon": -73.2451662,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "436",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "bar",
+    "min_age": "18",
+    "name": "La Moneda"
+  }
+},
+{
+  "type": "node",
+  "id": 4331569357,
+  "lat": -39.8051408,
+  "lon": -73.2527458,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Zoltan Nagy Yantstsky",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name:es": "Cafetería Bet-El",
+    "opening_hours": "Mo-Fr 21:00-07:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4337932633,
+  "lat": -39.8172194,
+  "lon": -73.2429922,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "637",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Beauchef",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "capacity": "30",
+    "cuisine": "sandwich;pizza;tablas;cervezas;almuerzos;tragos_nacionales",
+    "description": "Restaurante Valdiviano, donde se puede pasar un grato momento y no pasar hambre!",
+    "diet:meat": "yes",
+    "email": "fhgalaz@gmail.com",
+    "internet_access": "yes",
+    "name": "Con Tomate y Mayo",
+    "opening_hours": "Mo-Sa 12:30-00:00",
+    "phone": "+56964925950"
+  }
+},
+{
+  "type": "node",
+  "id": 4337940414,
+  "lat": -39.8156483,
+  "lon": -73.2438022,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Al Paso"
+  }
+},
+{
+  "type": "node",
+  "id": 4337946641,
+  "lat": -39.8156825,
+  "lon": -73.2443509,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "La Posada"
+  }
+},
+{
+  "type": "node",
+  "id": 4341865337,
+  "lat": -39.8137570,
+  "lon": -73.2422994,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "424",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Ismael Valdes",
+    "amenity": "fast_food",
+    "cuisine": "regional",
+    "name": "El Rincón de ?"
+  }
+},
+{
+  "type": "node",
+  "id": 4341886902,
+  "lat": -39.8134861,
+  "lon": -73.2426695,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Chacabuco",
+    "amenity": "fast_food",
+    "name": "El Shaddai"
+  }
+},
+{
+  "type": "node",
+  "id": 4341888923,
+  "lat": -39.8131094,
+  "lon": -73.2430086,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Chacabuco",
+    "amenity": "restaurant",
+    "name": "Los Leños"
+  }
+},
+{
+  "type": "node",
+  "id": 4353359398,
+  "lat": -39.8365206,
+  "lon": -73.2401709,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Irlanda",
+    "amenity": "fast_food",
+    "cuisine": "sushi",
+    "name": "SantaArepa"
+  }
+},
+{
+  "type": "node",
+  "id": 4353384722,
+  "lat": -39.8129103,
+  "lon": -73.2458777,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Chacabuco",
+    "amenity": "restaurant",
+    "name": "El Molino"
+  }
+},
+{
+  "type": "node",
+  "id": 4367830691,
+  "lat": -39.8152226,
+  "lon": -73.2441475,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "588",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Caupolicán",
+    "amenity": "bar",
+    "name": "Musstang"
+  }
+},
+{
+  "type": "node",
+  "id": 4381096389,
+  "lat": -39.8430992,
+  "lon": -73.2027795,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "quinta las brizas",
+    "name:es": "quinta Las Brizas"
+  }
+},
+{
+  "type": "node",
+  "id": 4432864413,
+  "lat": -39.8151195,
+  "lon": -73.2460846,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "240",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "cafe",
+    "name": "Terra"
+  }
+},
+{
+  "type": "node",
+  "id": 4444437801,
+  "lat": -39.8173775,
+  "lon": -73.2407951,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "684",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "García Reyes",
+    "amenity": "restaurant",
+    "diet:local": "yes",
+    "name": "Guacamole",
+    "name:es": "Guacamole",
+    "wikimedia_commons": "File:Restaurant_Guacamole,_Valdivia._-_panoramio.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 4444437891,
+  "lat": -39.8132882,
+  "lon": -73.2481548,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Arturo Prat",
+    "amenity": "restaurant",
+    "name": "Restaurant Costanera",
+    "name:es": "Restaurant Costanera"
+  }
+},
+{
+  "type": "node",
+  "id": 4553124389,
+  "lat": -39.8158286,
+  "lon": -73.2443634,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "634",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "restaurant",
+    "name": "Fuente Valdiviana",
+    "name:en": "Fuente Valdiviana",
+    "name:es": "Fuente Valdiviana"
+  }
+},
+{
+  "type": "node",
+  "id": 4558492696,
+  "lat": -39.7947261,
+  "lon": -73.2133262,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "La Posada",
+    "name:es": "La Posada"
+  }
+},
+{
+  "type": "node",
+  "id": 4574141935,
+  "lat": -39.8068198,
+  "lon": -73.2465614,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Fernando Santiván",
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4585813839,
+  "lat": -39.8130229,
+  "lon": -73.2441674,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 4691206604,
+  "lat": -39.8128814,
+  "lon": -73.2433334,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Caupolicán",
+    "amenity": "cafe",
+    "name": "Pash café",
+    "name:en": "Pash Coffe",
+    "name:es": "Pash café",
+    "opening_hours": "Mo-Sa 10:00-20:00; Su 09:00-18:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4763435922,
+  "lat": -39.8328008,
+  "lon": -73.2390359,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Italia",
+    "amenity": "fast_food",
+    "name": "El Rincón de la Abuela",
+    "name:es": "El Rincón de la Abuela"
+  }
+},
+{
+  "type": "node",
+  "id": 4829667908,
+  "lat": -39.8216092,
+  "lon": -73.2447481,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Donde Yayo"
+  }
+},
+{
+  "type": "node",
+  "id": 5072580222,
+  "lat": -39.8125269,
+  "lon": -73.2227819,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "228 C",
+    "addr:postcode": "5090000",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Bombero Classing",
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "email": "nonnaclaravaldivia@gmail.com",
+    "internet_access": "wlan",
+    "name": "Nonna Clara Pizzería",
+    "opening_hours": "Mo-Su 14:00-03:00",
+    "phone": "930676488",
+    "website": "https://www.facebook.com/pizzeriannonaclaravaldivia/"
+  }
+},
+{
+  "type": "node",
+  "id": 5072580223,
+  "lat": -39.8125069,
+  "lon": -73.2228080,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "228 C",
+    "addr:postcode": "5090000",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Bombero Classing",
+    "amenity": "fast_food",
+    "cuisine": "pancake",
+    "email": "nonnaclaravaldivia@Gmail.com",
+    "name": "Nonna Clara Repostería",
+    "name:en": "Nonna Clara Cake Shop",
+    "opening_hours": "Mo-Su 08:45-23:00",
+    "phone": "930676488",
+    "website": "https://m.facebook.com/Tortas-Nonna-Clara-824119137763388/"
+  }
+},
+{
+  "type": "node",
+  "id": 5176545127,
+  "lat": -39.8151470,
+  "lon": -73.2459224,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "cafe",
+    "name": "Café Cotidiano"
+  }
+},
+{
+  "type": "node",
+  "id": 5262773031,
+  "lat": -39.8546129,
+  "lon": -73.3331016,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "K8",
+    "name:es": "K8"
+  }
+},
+{
+  "type": "node",
+  "id": 5287790314,
+  "lat": -39.8091451,
+  "lon": -73.2600715,
+  "tags": {
+    "addr:city": "valdivia",
+    "addr:housenumber": "620",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "cafe",
+    "name": "La Tiendita Té y Café"
+  }
+},
+{
+  "type": "node",
+  "id": 5287949732,
+  "lat": -39.8300023,
+  "lon": -73.2401031,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "fast_food",
+    "name": "Carrito"
+  }
+},
+{
+  "type": "node",
+  "id": 5287949733,
+  "lat": -39.8297510,
+  "lon": -73.2396489,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "fast_food",
+    "name": "Señora Juanita"
+  }
+},
+{
+  "type": "node",
+  "id": 5287949734,
+  "lat": -39.8297429,
+  "lon": -73.2394961,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1040",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Sargento Bueras",
+    "amenity": "restaurant",
+    "name": "Producciones Nicook"
+  }
+},
+{
+  "type": "node",
+  "id": 5287949738,
+  "lat": -39.8320857,
+  "lon": -73.2386409,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1000",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Simpson",
+    "amenity": "fast_food",
+    "name": "Pewen"
+  }
+},
+{
+  "type": "node",
+  "id": 5288977473,
+  "lat": -39.8497590,
+  "lon": -73.2217731,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "706",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santa Laura",
+    "amenity": "fast_food",
+    "cuisine": "burger;sandwich",
+    "name": "Comida Rapida El Bajon"
+  }
+},
+{
+  "type": "node",
+  "id": 5288977944,
+  "lat": -39.8329425,
+  "lon": -73.2388886,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1740",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Italia",
+    "amenity": "fast_food",
+    "cuisine": "steak_house",
+    "name": "Donde el Tata"
+  }
+},
+{
+  "type": "node",
+  "id": 5289004290,
+  "lat": -39.8504228,
+  "lon": -73.2320274,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "4355",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Pedro Montt",
+    "amenity": "fast_food",
+    "cuisine": "burger;chicken;fish_and_chips;regional",
+    "name": "Pollos Schüler",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "632435762"
+  }
+},
+{
+  "type": "node",
+  "id": 5302676073,
+  "lat": -39.8156144,
+  "lon": -73.2357629,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "check_date": "2026-02-14",
+    "cuisine": "sandwich",
+    "description": "2 nivel, interior terminal",
+    "level": "2",
+    "name": "Subway",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681333,
+  "lat": -39.8146275,
+  "lon": -73.2353031,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "cafe",
+    "check_date": "2026-02-15",
+    "level": "1",
+    "name": "El Rinconcito"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681344,
+  "lat": -39.8157238,
+  "lon": -73.2357840,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "restaurant",
+    "level": "2",
+    "name": "Restaurany Los Ríos"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681352,
+  "lat": -39.8156636,
+  "lon": -73.2358603,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "check_date": "2026-02-14",
+    "cuisine": "sushi",
+    "level": "2",
+    "name": "Río Roll",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681353,
+  "lat": -39.8156107,
+  "lon": -73.2358628,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "check_date": "2026-02-14",
+    "cuisine": "burger;sandwich",
+    "level": "2",
+    "name": "Pedro, Juan & Diego",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681512,
+  "lat": -39.8153539,
+  "lon": -73.2357628,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "cafe",
+    "check_date": "2026-02-15",
+    "level": "1",
+    "name": "Cafe Karu"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681653,
+  "lat": -39.8157367,
+  "lon": -73.2358242,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "cuisine": "indian",
+    "delivery": "no",
+    "level": "2",
+    "name": "Sabor de India",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681654,
+  "lat": -39.8155974,
+  "lon": -73.2358357,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "cuisine": "burger;chicken",
+    "level": "2",
+    "name": "Tarragona",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5302681724,
+  "lat": -39.8156284,
+  "lon": -73.2358902,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "360",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "cuisine": "steak_house",
+    "name": "Cafeteria y Cocineria Los Rios"
+  }
+},
+{
+  "type": "node",
+  "id": 5303396340,
+  "lat": -39.8164999,
+  "lon": -73.2428877,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "description": "Local 341",
+    "level": "3",
+    "name": "Juan Maestro"
+  }
+},
+{
+  "type": "node",
+  "id": 5303396341,
+  "lat": -39.8163199,
+  "lon": -73.2428590,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "alt_name": "Kentucky Fried Chicken",
+    "amenity": "fast_food",
+    "brand": "KFC",
+    "brand:wikidata": "Q524757",
+    "brand:wikipedia": "en:KFC",
+    "cuisine": "chicken",
+    "description": "Local 337",
+    "fixme": "Correcciones masivas de nombres con mayúsculas",
+    "level": "3",
+    "name": "KFC",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5303396342,
+  "lat": -39.8162285,
+  "lon": -73.2428501,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "fast_food",
+    "cuisine": "mexican",
+    "description": "Local 333 tacos y burritos",
+    "level": "3",
+    "name": "Tommy Beans"
+  }
+},
+{
+  "type": "node",
+  "id": 5303396343,
+  "lat": -39.8161264,
+  "lon": -73.2428258,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "description": "Local 329",
+    "level": "3",
+    "name": "Pedro, Juan y Diego"
+  }
+},
+{
+  "type": "node",
+  "id": 5303396344,
+  "lat": -39.8161086,
+  "lon": -73.2426933,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "delivery": "no",
+    "description": "Local 317",
+    "level": "3",
+    "name": "Platon",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5303404178,
+  "lat": -39.8167872,
+  "lon": -73.2429069,
+  "tags": {
+    "amenity": "restaurant",
+    "description": "Local 349",
+    "name": "Buffet Express"
+  }
+},
+{
+  "type": "node",
+  "id": 5303404180,
+  "lat": -39.8167153,
+  "lon": -73.2421396,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "561",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "alt_name": "Dunkin' Donuts",
+    "amenity": "fast_food",
+    "branch": "Donnuts",
+    "brand": "Dunkin'",
+    "brand:wikidata": "Q847743",
+    "cuisine": "donut;coffee_shop",
+    "description": "Local 365",
+    "level": "3",
+    "name": "Dunkin'",
+    "shop": "pastry",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5313118730,
+  "lat": -39.8157410,
+  "lon": -73.2468702,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "San Carlos",
+    "amenity": "cafe",
+    "name": "Casa Celeste"
+  }
+},
+{
+  "type": "node",
+  "id": 5318827521,
+  "lat": -39.8138151,
+  "lon": -73.2451728,
+  "tags": {
+    "alt_name": "Dunkin' Donuts",
+    "amenity": "fast_food",
+    "brand": "Dunkin'",
+    "brand:wikidata": "Q847743",
+    "cuisine": "donut;coffee_shop",
+    "internet_access": "wlan",
+    "name": "Dunkin'",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5318859022,
+  "lat": -39.8128863,
+  "lon": -73.2479927,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish;seafood",
+    "name": "El Rey del Marisco"
+  }
+},
+{
+  "type": "node",
+  "id": 5320844522,
+  "lat": -39.8135892,
+  "lon": -73.2473591,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 5343702329,
+  "lat": -39.8400793,
+  "lon": -73.2174809,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "El Chilenito"
+  }
+},
+{
+  "type": "node",
+  "id": 5427833121,
+  "lat": -39.8881165,
+  "lon": -73.4299210,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Restaurante La Abuela"
+  }
+},
+{
+  "type": "node",
+  "id": 5427833221,
+  "lat": -39.8882177,
+  "lon": -73.4298967,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Feria Gastronómica Corral"
+  }
+},
+{
+  "type": "node",
+  "id": 5531801556,
+  "lat": -39.8197587,
+  "lon": -73.2459932,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "958",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Serrano",
+    "amenity": "cafe",
+    "email": "raicescafecolombia@gmail.com",
+    "name": "Café Raíces"
+  }
+},
+{
+  "type": "node",
+  "id": 5531843773,
+  "lat": -39.8195982,
+  "lon": -73.2438485,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lord Cochrane",
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 5592407584,
+  "lat": -39.8254475,
+  "lon": -73.2398702,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Café Barlovento"
+  }
+},
+{
+  "type": "node",
+  "id": 5996824377,
+  "lat": -39.8166585,
+  "lon": -73.2468090,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffee time"
+  }
+},
+{
+  "type": "node",
+  "id": 5996824390,
+  "lat": -39.8110792,
+  "lon": -73.2521436,
+  "tags": {
+    "amenity": "cafe",
+    "description": "Café & Roastet",
+    "name": "Roasty"
+  }
+},
+{
+  "type": "node",
+  "id": 6190595588,
+  "lat": -39.8119383,
+  "lon": -73.2433368,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "270",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Caupolicán",
+    "amenity": "bar",
+    "brewery": "yes;various",
+    "email": "don.rucio@gmail.com",
+    "internet_access": "wlan",
+    "name": "Don Rucio",
+    "opening_hours": "Su-Th 18:00-00:00, Fr-Sa 18:00-02:00",
+    "phone": "+56990752679"
+  }
+},
+{
+  "type": "node",
+  "id": 6253636096,
+  "lat": -39.8200860,
+  "lon": -73.2427960,
+  "tags": {
+    "amenity": "restaurant",
+    "diet:vegan": "yes",
+    "name": "Enki",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:access": "customers"
+  }
+},
+{
+  "type": "node",
+  "id": 6270527585,
+  "lat": -39.8058830,
+  "lon": -73.2572577,
+  "tags": {
+    "addr:city": "Valdivia",
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 6281849486,
+  "lat": -39.8394632,
+  "lon": -73.2575219,
+  "tags": {
+    "addr:housenumber": "2748",
+    "addr:street": "Arica",
+    "amenity": "fast_food",
+    "cuisine": "sandwich;regional",
+    "email": "encuentrovaldiviano@gmail.com",
+    "name": "Encuentro Valdiviano",
+    "phone": "+56632431096"
+  }
+},
+{
+  "type": "node",
+  "id": 7018352985,
+  "lat": -39.8163290,
+  "lon": -73.2437206,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "New Orleans"
+  }
+},
+{
+  "type": "node",
+  "id": 7137280524,
+  "lat": -39.8156793,
+  "lon": -73.2472965,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Independencia",
+    "amenity": "cafe",
+    "name": "La Notaría"
+  }
+},
+{
+  "type": "node",
+  "id": 7139782854,
+  "lat": -39.8162373,
+  "lon": -73.2472107,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "175",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lautaro",
+    "amenity": "cafe",
+    "check_date": "2024-05-15",
+    "contact:instagram": "https://www.instagram.com/planetabrunch",
+    "cuisine": "dessert;breakfast;coffee_shop",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Café & Pastelería Planeta Brunch",
+    "opening_hours": "Mo-Fr 08:30-20:30; Sa 09:30-21:30",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+56 9 6523 0039",
+    "source": "local knowledge",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7139795105,
+  "lat": -39.8110756,
+  "lon": -73.2445678,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "266",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "cafe",
+    "name": "Café Simple",
+    "operator": "Anselmo SpA"
+  }
+},
+{
+  "type": "node",
+  "id": 7235858759,
+  "lat": -39.8345881,
+  "lon": -73.2396614,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1800",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Francia",
+    "amenity": "cafe",
+    "name": "Liquen Café"
+  }
+},
+{
+  "type": "node",
+  "id": 7272392385,
+  "lat": -39.8628552,
+  "lon": -73.4351991,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 7884252886,
+  "lat": -39.8324789,
+  "lon": -73.2332279,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "2244",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Isla Guacamayo",
+    "amenity": "bar",
+    "cuisine": "pizza",
+    "email": "mawida@mawidacerveceria.com",
+    "internet_access": "wlan",
+    "name": "Cervecería Mawida",
+    "name:en": "Mawida Beer",
+    "name:es": "Cervecería Mawida",
+    "opening_hours": "Mo-Sa 17:00-22:00",
+    "phone": "+56965047729"
+  }
+},
+{
+  "type": "node",
+  "id": 8679540079,
+  "lat": -39.8447491,
+  "lon": -73.2023120,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "3701",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "restaurant",
+    "name": "La Grulla SpA"
+  }
+},
+{
+  "type": "node",
+  "id": 9165505114,
+  "lat": -39.8173054,
+  "lon": -73.2425197,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "658",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Beauchef",
+    "amenity": "cafe",
+    "capacity": "15",
+    "cuisine": "coffee_shop;sandwich;ice_cream;pizza;regional;desayunos;quincho;centro_de_eventos;jugos",
+    "description": "Trabajamos bajo el concepto de anticafetería, cobramos por el tiempo que estás en nuestras instalaciones, no por lo que consumes. Consulta nuestro precios.",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "internet_access:ssid": "Quila Café Interior",
+    "name": "Quila Café",
+    "opening_hours": "Mo-Sa 10:00-20:00",
+    "outdoor_seating": "yes",
+    "phone": "+56994766736",
+    "website": "https://www.quilacafe.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 9359346322,
+  "lat": -39.8753607,
+  "lon": -73.3886772,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "El Tropezón"
+  }
+},
+{
+  "type": "node",
+  "id": 9760744020,
+  "lat": -39.8126537,
+  "lon": -73.2404878,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Café Arcoiris"
+  }
+},
+{
+  "type": "node",
+  "id": 9768684917,
+  "lat": -39.8170854,
+  "lon": -73.2365665,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Pizzería Corazón Contento"
+  }
+},
+{
+  "type": "node",
+  "id": 9768685017,
+  "lat": -39.8106763,
+  "lon": -73.2453046,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Ubuntu - Lugar de Encuentros"
+  }
+},
+{
+  "type": "node",
+  "id": 9768685117,
+  "lat": -39.8125573,
+  "lon": -73.2458357,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "374",
+    "addr:postcode": "5090000",
+    "addr:street": "O'Higgins",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "diet:vegan": "only",
+    "indoor_seating": "yes",
+    "name": "Enki Vegan",
+    "opening_hours": "Mo-We 13:00-12:30, Th-Sa 13:00-22:30",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "phone": "+56936975889",
+    "was:website": "https://enkivegan.cl/"
+  }
+},
+{
+  "type": "node",
+  "id": 10201023852,
+  "lat": -39.8334430,
+  "lon": -73.2500940,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Luis Rudloff",
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 10224796233,
+  "lat": -39.8289935,
+  "lon": -73.2505854,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "General Lagos",
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 10678537605,
+  "lat": -39.8104008,
+  "lon": -73.2465814,
+  "tags": {
+    "amenity": "fast_food",
+    "name:en": "Food Trucks"
+  }
+},
+{
+  "type": "node",
+  "id": 10678537606,
+  "lat": -39.8154882,
+  "lon": -73.2488714,
+  "tags": {
+    "amenity": "fast_food",
+    "name:en": "Food trucks"
+  }
+},
+{
+  "type": "node",
+  "id": 10795405881,
+  "lat": -39.8099958,
+  "lon": -73.2546258,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:housenumber": "20",
+    "addr:postcode": "5110209",
+    "addr:street": "Los Alerces",
+    "amenity": "restaurant",
+    "cuisine": "pizza",
+    "name": "450 Bar Pizzeria"
+  }
+},
+{
+  "type": "node",
+  "id": 11115123714,
+  "lat": -39.8440072,
+  "lon": -73.2325252,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Pedro Montt",
+    "amenity": "fast_food",
+    "name": "La choza del Teba"
+  }
+},
+{
+  "type": "node",
+  "id": 11435368985,
+  "lat": -39.8433231,
+  "lon": -73.2247292,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Nueva San Martín",
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 12017278988,
+  "lat": -39.8142772,
+  "lon": -73.2435724,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:housename": "Mall Paseo Valdivia",
+    "addr:housenumber": "442",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12069090157,
+  "lat": -39.8188476,
+  "lon": -73.2482974,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "176",
+    "addr:street": "Lord Cochrane",
+    "amenity": "fast_food",
+    "contact:instagram": "klasserburgervaldivia",
+    "cuisine": "burger;fries",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Klasser Burger",
+    "opening_hours": "Mo-Th 09:00-23:00; Fr 09:00-23:30; Sa-Su 11:30-23:00",
+    "phone": "+56 9 4348 1935",
+    "takeaway": "yes",
+    "website": "https://menu.fu.do/klasserburger",
+    "website:menu": "https://menu.fu.do/klasserburger"
+  }
+},
+{
+  "type": "node",
+  "id": 12069090159,
+  "lat": -39.8196319,
+  "lon": -73.2444960,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 12088079453,
+  "lat": -39.8131855,
+  "lon": -73.2451874,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "fast_food",
+    "cuisine": "sandwich;friture",
+    "name": "Donde La Mayo"
+  }
+},
+{
+  "type": "node",
+  "id": 12291291609,
+  "lat": -39.8175063,
+  "lon": -73.2472725,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Vicente Pérez Rosales",
+    "amenity": "fast_food",
+    "cuisine": "sandwich"
+  }
+},
+{
+  "type": "node",
+  "id": 12365224282,
+  "lat": -39.8127164,
+  "lon": -73.2450697,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Toto"
+  }
+},
+{
+  "type": "node",
+  "id": 12396949534,
+  "lat": -39.8141544,
+  "lon": -73.2453885,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "fast_food",
+    "name": "Churros"
+  }
+},
+{
+  "type": "node",
+  "id": 12466051056,
+  "lat": -39.8157187,
+  "lon": -73.2467598,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Vicente Pérez Rosales",
+    "amenity": "cafe",
+    "name": "Café del Elfo",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "start_date": "2024-12-17",
+    "website": "https://www.instagram.com/el_cafe_del_elfo/"
+  }
+},
+{
+  "type": "node",
+  "id": 12507634180,
+  "lat": -39.8128163,
+  "lon": -73.2450671,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "bar",
+    "name": "Club Ibiza"
+  }
+},
+{
+  "type": "node",
+  "id": 12507634181,
+  "lat": -39.8123959,
+  "lon": -73.2449529,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Alemania",
+    "amenity": "bar",
+    "name": "Al Yugo"
+  }
+},
+{
+  "type": "node",
+  "id": 12864929800,
+  "lat": -39.8101761,
+  "lon": -73.2529048,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "66",
+    "addr:street": "Oettinger",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Lovanij Coffee Work",
+    "opening_hours": "Mo-Fr 09:00-21:00 Sa-Su 09:00-19:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12952972356,
+  "lat": -39.8311715,
+  "lon": -73.2415510,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Zaragoza",
+    "amenity": "fast_food",
+    "name": "Cafefit"
+  }
+},
+{
+  "type": "node",
+  "id": 13076545379,
+  "lat": -39.8533130,
+  "lon": -73.2494499,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Pasaje Mapu",
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "name": "Agualda"
+  }
+},
+{
+  "type": "node",
+  "id": 13233344170,
+  "lat": -39.8179752,
+  "lon": -73.2448447,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "412",
+    "addr:street": "Yerbas Buenas",
+    "amenity": "fast_food",
+    "contact:instagram": "sushi__an_delivery",
+    "cuisine": "sushi;fries;japanese",
+    "drive_through": "no",
+    "name": "Sushi An",
+    "opening_hours": "Mo-Fr 12:30-20:30",
+    "outdoor_seating": "yes",
+    "phone": "+56 9 7372 7970",
+    "self_service": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13288223714,
+  "lat": -39.8150588,
+  "lon": -73.2383940,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Pedro de Valdivia",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Ikigaisushi"
+  }
+},
+{
+  "type": "node",
+  "id": 13288223716,
+  "lat": -39.8151488,
+  "lon": -73.2386529,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "cafe",
+    "name": "Santos Sabores"
+  }
+},
+{
+  "type": "node",
+  "id": 13301596637,
+  "lat": -39.8108188,
+  "lon": -73.2517631,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "pizza",
+    "email": "contacto@underpizza.com",
+    "facebook": "https://www.facebook.com/UnderPizzaChile",
+    "instagram": "https://www.instagram.com/underpizzachile",
+    "name": "Under Pizza",
+    "opening_hours": "Fr-Sa 10:00-02:00; Mo-Th,Su 10:00-24:00",
+    "phone": "+56 2 2595 0700",
+    "tiktok": "https://www.tiktok.com/@underpizzachile",
+    "website": "https://www.underpizza.com/pedir"
+  }
+},
+{
+  "type": "node",
+  "id": 13508148605,
+  "lat": -39.8140483,
+  "lon": -73.2464023,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13541424401,
+  "lat": -39.8137364,
+  "lon": -73.2473942,
+  "tags": {
+    "addr:street": "Paseo Libertad",
+    "amenity": "fast_food",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "opening_hours": "Mo-Fr 10:30-20:00; Sa-Su 11:00-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13625907599,
+  "lat": -39.8186759,
+  "lon": -73.2429834,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "891",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "cafe",
+    "name": "Café Lumiere",
+    "opening_hours": "Mo-Su 07:30-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13685200401,
+  "lat": -39.8134422,
+  "lon": -73.2482013,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "La Perla Negra"
+  }
+},
+{
+  "type": "node",
+  "id": 13685200402,
+  "lat": -39.8134702,
+  "lon": -73.2480016,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Valdiviana"
+  }
+},
+{
+  "type": "node",
+  "id": 13715108121,
+  "lat": -39.8172549,
+  "lon": -73.2342868,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13783705081,
+  "lat": -39.8154235,
+  "lon": -73.2466608,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Vicente Pérez Rosales",
+    "amenity": "cafe",
+    "name": "Mawenche"
+  }
+},
+{
+  "type": "node",
+  "id": 13860814561,
+  "lat": -39.8445285,
+  "lon": -73.2309963,
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "2565",
+    "addr:street": "Avenida Circunvalación Sur",
+    "amenity": "restaurant",
+    "cuisine": "sushi",
+    "name": "Ansai Sushi",
+    "phone": "+56952328178",
+    "takeaway": "only",
+    "website": "https://www.instagram.com/ansai.sushi/"
+  }
+},
+{
+  "type": "node",
+  "id": 13987116202,
+  "lat": -39.8178713,
+  "lon": -73.2447425,
+  "tags": {
+    "addr:housenumber": "412",
+    "addr:street": "Camilo Henríquez",
+    "amenity": "fast_food",
+    "cuisine": "friture",
+    "drive_through": "no",
+    "name": "Mar Azul",
+    "opening_hours": "Mo-Sa 13:00-06:00",
+    "outdoor_seating": "yes",
+    "payment:account_cards": "yes",
+    "payment:cash": "yes",
+    "phone": "+56999334372",
+    "self_service": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 123498519,
+  "center": {
+    "lat": -39.8167056,
+    "lon": -73.2486392
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "745",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Lagos",
+    "amenity": "restaurant",
+    "building": "yes",
+    "building:levels": "2",
+    "building:material": "metal",
+    "cuisine": "regional",
+    "name": "Tilo Bar",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 124432950,
+  "center": {
+    "lat": -39.8211475,
+    "lon": -73.2492267
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1118",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Lagos",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "name": "Yang Cheng",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 124801642,
+  "center": {
+    "lat": -39.8280494,
+    "lon": -73.2490997
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "219",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "Zuhause",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 124964110,
+  "center": {
+    "lat": -39.8153624,
+    "lon": -73.2441532
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "594",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Caupolicán",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "La Bomba",
+    "opening_hours": "Mo-Sa 10:00-23:00; Su 00:00-21:00",
+    "phone": "+56632578663",
+    "start_date": "1919"
+  }
+},
+{
+  "type": "way",
+  "id": 126746160,
+  "center": {
+    "lat": -39.8247039,
+    "lon": -73.2290341
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Errázuriz",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "La Valdiviana"
+  }
+},
+{
+  "type": "way",
+  "id": 127263784,
+  "center": {
+    "lat": -39.8112020,
+    "lon": -73.2478081
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Arturo Prat",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Camino de Luna",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "phone": "+56 63 223 4393"
+  }
+},
+{
+  "type": "way",
+  "id": 129384916,
+  "center": {
+    "lat": -39.8126188,
+    "lon": -73.2377077
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "723",
+    "addr:postcode": "5090000",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Arturo Prat",
+    "amenity": "restaurant",
+    "building": "hotel",
+    "name": "La Casona",
+    "source": "http://www.agendalocal21.cl/2009/index.html"
+  }
+},
+{
+  "type": "way",
+  "id": 163548339,
+  "center": {
+    "lat": -39.8134829,
+    "lon": -73.2304676
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "507",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida España",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Fogón Palestino"
+  }
+},
+{
+  "type": "way",
+  "id": 181669943,
+  "center": {
+    "lat": -39.8161535,
+    "lon": -73.2443704
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "657",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "bar",
+    "building": "yes",
+    "name": "Shot Karaoke",
+    "note": "Resto-Bar & Karaoke Comida Texana y BBQ (American Food). Cocteles & destilados nacionales e internacionales, Vinos y cervezas artesanales de la Ciudad.",
+    "opening_hours": "18:30-03:30",
+    "operator": "Paul",
+    "phone": "(63) 222 2410",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "way",
+  "id": 275081882,
+  "center": {
+    "lat": -39.8342281,
+    "lon": -73.2516840
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 275081883,
+  "center": {
+    "lat": -39.8339310,
+    "lon": -73.2518884
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional"
+  }
+},
+{
+  "type": "way",
+  "id": 360584382,
+  "center": {
+    "lat": -39.8105020,
+    "lon": -73.2536818
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "202",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "german;sandwich",
+    "delivery": "no",
+    "name": "Café Haussmann",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 368004995,
+  "center": {
+    "lat": -39.8104250,
+    "lon": -73.2539836
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "020",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Germán Saelzer",
+    "amenity": "restaurant",
+    "building": "retail",
+    "capacity": "150",
+    "cuisine": "parilla;fish;seafood;local",
+    "name": "Murtao Restaurant",
+    "note": "Restauran Valdivia, Primera Calidad, Ambiente Perfecto y Familiar.",
+    "opening_hours": "12:00-24:00,00:00-02:00",
+    "phone": "2 541038",
+    "takeaway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 374420179,
+  "center": {
+    "lat": -39.8097084,
+    "lon": -73.2515779
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "amenity": "restaurant",
+    "name": "Papas Bravas"
+  }
+},
+{
+  "type": "way",
+  "id": 403859558,
+  "center": {
+    "lat": -39.8233805,
+    "lon": -73.2400922
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1685",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "fast_food",
+    "building": "yes",
+    "name": "Los Corelly"
+  }
+},
+{
+  "type": "way",
+  "id": 403889803,
+  "center": {
+    "lat": -39.8103863,
+    "lon": -73.2531011
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Jota"
+  }
+},
+{
+  "type": "way",
+  "id": 410346877,
+  "center": {
+    "lat": -39.8107688,
+    "lon": -73.2519671
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "100",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "restaurant",
+    "building": "retail",
+    "cuisine": "pasta;pizza;italian",
+    "name": "Mercato",
+    "opening_hours": "We-Th 12:45-21:00; Fr 12:45-21:30; Sa 12:00-21:00; Su 12:00-20:00",
+    "phone": "+56 63 2 625346",
+    "website": "https://mercato.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 434946043,
+  "center": {
+    "lat": -39.8287660,
+    "lon": -73.2446669
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "560",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "restaurant",
+    "brewery": "various",
+    "building": "yes",
+    "name": "Medieval",
+    "name:en": "Medieval",
+    "name:es": "Medieval"
+  }
+},
+{
+  "type": "way",
+  "id": 434950248,
+  "center": {
+    "lat": -39.8226647,
+    "lon": -73.2381428
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Baquedano",
+    "amenity": "fast_food",
+    "building": "yes",
+    "name": "Fodie"
+  }
+},
+{
+  "type": "way",
+  "id": 435898979,
+  "center": {
+    "lat": -39.8165039,
+    "lon": -73.2432741
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Beauchef",
+    "amenity": "bar",
+    "building": "yes",
+    "name": "Bar Gamer"
+  }
+},
+{
+  "type": "way",
+  "id": 435899649,
+  "center": {
+    "lat": -39.8167567,
+    "lon": -73.2435177
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "japanese",
+    "name": "Grado 3"
+  }
+},
+{
+  "type": "way",
+  "id": 435900193,
+  "center": {
+    "lat": -39.8160388,
+    "lon": -73.2437687
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "bar",
+    "building": "yes",
+    "name": "City Bar"
+  }
+},
+{
+  "type": "way",
+  "id": 435900417,
+  "center": {
+    "lat": -39.8163857,
+    "lon": -73.2436332
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Picamaderos"
+  }
+},
+{
+  "type": "way",
+  "id": 435900860,
+  "center": {
+    "lat": -39.8156319,
+    "lon": -73.2440873
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "restaurant",
+    "building": "retail",
+    "name": "Nuevo Campesino"
+  }
+},
+{
+  "type": "way",
+  "id": 436321165,
+  "center": {
+    "lat": -39.8135442,
+    "lon": -73.2425380
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Chacabuco",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "Mar y Copas"
+  }
+},
+{
+  "type": "way",
+  "id": 436494491,
+  "center": {
+    "lat": -39.8142932,
+    "lon": -73.2473269
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "543",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Independencia",
+    "amenity": "bar",
+    "building": "yes",
+    "name": "Bimba"
+  }
+},
+{
+  "type": "way",
+  "id": 461975938,
+  "center": {
+    "lat": -39.8726889,
+    "lon": -73.3832500
+  },
+  "tags": {
+    "amenity": "fast_food",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 462199092,
+  "center": {
+    "lat": -39.8095825,
+    "lon": -73.2445455
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "288 B",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carlos Anwandter",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "thai",
+    "name": "Chile Güey (Mexicana)",
+    "website": "https://www.facebook.com/chileguey"
+  }
+},
+{
+  "type": "way",
+  "id": 463264035,
+  "center": {
+    "lat": -39.8108863,
+    "lon": -73.2435091
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "382",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Janequeo",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "Fogón Sureño"
+  }
+},
+{
+  "type": "way",
+  "id": 463267573,
+  "center": {
+    "lat": -39.8280173,
+    "lon": -73.2478621
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "bar",
+    "building": "yes",
+    "name": "1960"
+  }
+},
+{
+  "type": "way",
+  "id": 464253611,
+  "center": {
+    "lat": -39.8452099,
+    "lon": -73.3940625
+  },
+  "tags": {
+    "addr:city": "Los Molinos",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Mariscoteca"
+  }
+},
+{
+  "type": "way",
+  "id": 464253637,
+  "center": {
+    "lat": -39.8449737,
+    "lon": -73.3944319
+  },
+  "tags": {
+    "addr:city": "Los Molinos",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "seafood",
+    "email": "restaurant.igors@gmail.com",
+    "name": "Igor's",
+    "phone": "+5663282720"
+  }
+},
+{
+  "type": "way",
+  "id": 464253735,
+  "center": {
+    "lat": -39.8451124,
+    "lon": -73.3942489
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "La Bahía"
+  }
+},
+{
+  "type": "way",
+  "id": 478362884,
+  "center": {
+    "lat": -39.8636980,
+    "lon": -73.3930050
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Tornagaleones",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Salon Pool"
+  }
+},
+{
+  "type": "way",
+  "id": 478363826,
+  "center": {
+    "lat": -39.8631230,
+    "lon": -73.3948058
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "105",
+    "addr:street": "Tornagaleones",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "regional",
+    "email": "contacto@turismolahuella.cl",
+    "name": "La Huella Restaurante",
+    "opening_hours": "Tu-Su 11:00-20:00",
+    "phone": "+56632200354",
+    "website": "http://www.turismolahuella.cl"
+  }
+},
+{
+  "type": "way",
+  "id": 489067586,
+  "center": {
+    "lat": -39.8134678,
+    "lon": -73.2473602
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Paseo Libertad",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Tesoro del Mar"
+  }
+},
+{
+  "type": "way",
+  "id": 504127071,
+  "center": {
+    "lat": -39.8298902,
+    "lon": -73.2218198
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Restaurant Escuela Liceo Tecnico"
+  }
+},
+{
+  "type": "way",
+  "id": 512382920,
+  "center": {
+    "lat": -39.8825377,
+    "lon": -73.4249166
+  },
+  "tags": {
+    "addr:city": "Corral",
+    "addr:street": "Arturo Prat",
+    "amenity": "fast_food",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 513660276,
+  "center": {
+    "lat": -39.7554526,
+    "lon": -73.2679693
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "house",
+    "name": "Los Castaños"
+  }
+},
+{
+  "type": "way",
+  "id": 515094914,
+  "center": {
+    "lat": -39.8707172,
+    "lon": -73.4000375
+  },
+  "tags": {
+    "addr:city": "Niebla",
+    "addr:street": "Del Castillo",
+    "amenity": "cafe",
+    "building": "retail",
+    "diet:vegetarian": "yes",
+    "name": "Café La Motoneta",
+    "opening_hours:signed": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 515100623,
+  "center": {
+    "lat": -39.8644409,
+    "lon": -73.3934469
+  },
+  "tags": {
+    "addr:city": "Niebla",
+    "addr:street": "Del Castillo",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Indio Pije"
+  }
+},
+{
+  "type": "way",
+  "id": 515109590,
+  "center": {
+    "lat": -39.8583397,
+    "lon": -73.3907973
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Terraza"
+  }
+},
+{
+  "type": "way",
+  "id": 515125962,
+  "center": {
+    "lat": -39.8741242,
+    "lon": -73.3956779
+  },
+  "tags": {
+    "addr:city": "Niebla",
+    "addr:street": "Carlos Antonio Duce",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional;seafood;fish",
+    "name": "Entre Costa"
+  }
+},
+{
+  "type": "way",
+  "id": 517476351,
+  "center": {
+    "lat": -39.8902085,
+    "lon": -73.3907443
+  },
+  "tags": {
+    "addr:city": "Isla Mancera",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Herradura"
+  }
+},
+{
+  "type": "way",
+  "id": 520371089,
+  "center": {
+    "lat": -39.8628663,
+    "lon": -73.3559654
+  },
+  "tags": {
+    "addr:city": "Niebla",
+    "addr:street": "Ruta T-350",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Entre Faros",
+    "phone": "+56 63 228 2888"
+  }
+},
+{
+  "type": "way",
+  "id": 542667089,
+  "center": {
+    "lat": -39.8267801,
+    "lon": -73.2399082
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "1965",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Casa Negra",
+    "opening_hours": "Mo-Th 08:30-22:00; Fr 08:30-00:00; Sa 12:00-00:00"
+  }
+},
+{
+  "type": "way",
+  "id": 542994533,
+  "center": {
+    "lat": -39.8637769,
+    "lon": -73.3934532
+  },
+  "tags": {
+    "addr:street": "Tornagaleones",
+    "amenity": "fast_food",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 547270704,
+  "center": {
+    "lat": -39.8415033,
+    "lon": -73.2039137
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "3560",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Ramón Picarte",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "regional",
+    "name": "Mistura Limeña",
+    "phone": "+56941259806"
+  }
+},
+{
+  "type": "way",
+  "id": 549026327,
+  "center": {
+    "lat": -39.8130719,
+    "lon": -73.2462655
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "428",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "O'Higgins",
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "building": "yes",
+    "cuisine": "burger",
+    "drive_through": "yes",
+    "name": "McDonald's",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "website": "https://www.mcdonalds.cl/"
+  }
+},
+{
+  "type": "way",
+  "id": 574636138,
+  "center": {
+    "lat": -39.8179946,
+    "lon": -73.2471587
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Yerbas Buenas",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "La Cevichería"
+  }
+},
+{
+  "type": "way",
+  "id": 576877651,
+  "center": {
+    "lat": -39.8193768,
+    "lon": -73.2464370
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lord Cochrane",
+    "amenity": "restaurant",
+    "building": "house",
+    "name": "La Picá de Cochrane"
+  }
+},
+{
+  "type": "way",
+  "id": 584266023,
+  "center": {
+    "lat": -39.8103618,
+    "lon": -73.2544160
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Cioccolato"
+  }
+},
+{
+  "type": "way",
+  "id": 589974757,
+  "center": {
+    "lat": -39.8079887,
+    "lon": -73.2623629
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "775",
+    "addr:street": "Los Helechos",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "pizza;pasta",
+    "name": "Dasud",
+    "opening_hours": "Tu-Su 13:00-22:30; Su 13:00-17:30",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 600489920,
+  "center": {
+    "lat": -39.8102872,
+    "lon": -73.2538481
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Germán Saelzer",
+    "amenity": "restaurant",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 601893447,
+  "center": {
+    "lat": -39.8101077,
+    "lon": -73.2537759
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Germán Saelzer",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "pizza",
+    "name": "La Pizzeria de Renzo",
+    "phone": "+63 2347400"
+  }
+},
+{
+  "type": "way",
+  "id": 602726678,
+  "center": {
+    "lat": -39.8087433,
+    "lon": -73.2550172
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "91",
+    "addr:street": "Los Tilos",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "building": "house",
+    "cuisine": "sandwich;regional",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "name": "La Última Frontera",
+    "start_date": "2025-01",
+    "toilets": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 619631422,
+  "center": {
+    "lat": -39.8112257,
+    "lon": -73.2516140
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "071",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "bar",
+    "building": "house",
+    "name": "Cava"
+  }
+},
+{
+  "type": "way",
+  "id": 619631424,
+  "center": {
+    "lat": -39.8111878,
+    "lon": -73.2518101
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "restaurant",
+    "building": "house",
+    "name": "Mia"
+  }
+},
+{
+  "type": "way",
+  "id": 620482453,
+  "center": {
+    "lat": -39.8167564,
+    "lon": -73.2436405
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Esmeralda",
+    "amenity": "restaurant",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 623143659,
+  "center": {
+    "lat": -39.8095615,
+    "lon": -73.2168553
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "15",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Rocura",
+    "amenity": "cafe",
+    "name": "Patagonia Donuts"
+  }
+},
+{
+  "type": "way",
+  "id": 669262968,
+  "center": {
+    "lat": -39.8108474,
+    "lon": -73.2515446
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "fast_food",
+    "building": "retail",
+    "cuisine": "sushi",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 711522507,
+  "center": {
+    "lat": -39.8294811,
+    "lon": -73.2404725
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "2160",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Aníbal Pinto",
+    "amenity": "cafe",
+    "building": "yes",
+    "internet_access": "yes",
+    "name": "Carezza",
+    "phone": "+56985477667",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 729894160,
+  "center": {
+    "lat": -39.8140369,
+    "lon": -73.2377133
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "802",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carlos Anwandter",
+    "amenity": "restaurant",
+    "bar": "yes",
+    "building": "yes",
+    "cuisine": "regional;seafood",
+    "internet_access": "wlan",
+    "name": "Entre Mar y Tierra"
+  }
+},
+{
+  "type": "way",
+  "id": 744339569,
+  "center": {
+    "lat": -39.8169484,
+    "lon": -73.2361238
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "958",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arauco",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "pizza",
+    "diet:vegan": "yes",
+    "name": "Corazón Contento",
+    "phone": "+56977073626"
+  }
+},
+{
+  "type": "way",
+  "id": 771222199,
+  "center": {
+    "lat": -39.8153981,
+    "lon": -73.2252193
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Pedro Aguirre Cerda",
+    "amenity": "bar",
+    "brewery": "yes",
+    "building": "house",
+    "name": "Animeños"
+  }
+},
+{
+  "type": "way",
+  "id": 772308053,
+  "center": {
+    "lat": -39.8195053,
+    "lon": -73.2454218
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "391",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lord Cochrane",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cocktails": "yes",
+    "contact:instagram": "lacasonabarriosbajos",
+    "cuisine": "fries;burger;sandwich;hot_dog",
+    "food": "yes",
+    "name": "La Casona",
+    "opening_hours": "19:00-22:00",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "website:menu": "https://drive.google.com/file/d/1-YMoscaHIXFCGGwi0Gm9Rq_PNYhWyRZN"
+  }
+},
+{
+  "type": "way",
+  "id": 772308054,
+  "center": {
+    "lat": -39.8195185,
+    "lon": -73.2456653
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "375",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Lord Cochrane",
+    "amenity": "restaurant",
+    "building": "yes",
+    "contact:instagram": "pastastrigovaldivia",
+    "cuisine": "pasta;soup",
+    "diet:vegetarian": "yes",
+    "name": "Pastas Trigo",
+    "opening_hours": "Mo-Sa 12:00-22:30; Su 12:00-18:30",
+    "website:menu": "https://drive.google.com/file/d/1IKY9ilq76KwY_dF7cdlDipqgLrfX3Y-f/view?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnT8KGJczY8B9HuHLwakwOt2DicgNnmp3H44YAK43RYFuZ71BJeOjFOH8UW5g_aem_q_NJ9ZBscFHFbe-DnGfU3w"
+  }
+},
+{
+  "type": "way",
+  "id": 776815181,
+  "center": {
+    "lat": -39.8205946,
+    "lon": -73.2492407
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Lagos",
+    "amenity": "fast_food",
+    "building": "yes",
+    "cuisine": "sandwich;burger",
+    "name": "Valdi Lomits"
+  }
+},
+{
+  "type": "way",
+  "id": 776847534,
+  "center": {
+    "lat": -39.8205267,
+    "lon": -73.2497713
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "General Lagos",
+    "amenity": "restaurant",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 827234735,
+  "center": {
+    "lat": -39.8299214,
+    "lon": -73.2376971
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Arturo Gunther",
+    "amenity": "restaurant",
+    "name": "Espacio Cocina"
+  }
+},
+{
+  "type": "way",
+  "id": 851088956,
+  "center": {
+    "lat": -39.8127807,
+    "lon": -73.2401157
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "640",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "bar",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 851088957,
+  "center": {
+    "lat": -39.8127318,
+    "lon": -73.2402489
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "636",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carampangue",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Puerto Canelos"
+  }
+},
+{
+  "type": "way",
+  "id": 932019172,
+  "center": {
+    "lat": -39.8155333,
+    "lon": -73.2464023
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Vicente Pérez Rosales",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Cafetería EntreLagos"
+  }
+},
+{
+  "type": "way",
+  "id": 932019173,
+  "center": {
+    "lat": -39.8156387,
+    "lon": -73.2464432
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "644",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Vicente Pérez Rosales",
+    "amenity": "cafe",
+    "name": "Café Restaurante Cosas Ricas",
+    "name:es": "Café Restaurante Cosas Ricas"
+  }
+},
+{
+  "type": "way",
+  "id": 933649932,
+  "center": {
+    "lat": -39.8171064,
+    "lon": -73.2374596
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Anfión Muñoz",
+    "amenity": "fast_food",
+    "building": "yes",
+    "name": "Las Sabrosas"
+  }
+},
+{
+  "type": "way",
+  "id": 944948417,
+  "center": {
+    "lat": -39.8286613,
+    "lon": -73.2397026
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carlos Bennett",
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "sandwich;pastel;coffee_shop",
+    "name": "Cafetería y Pastelería"
+  }
+},
+{
+  "type": "way",
+  "id": 947561637,
+  "center": {
+    "lat": -39.7521593,
+    "lon": -73.3580978
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Quincho Eluney"
+  }
+},
+{
+  "type": "way",
+  "id": 948016731,
+  "center": {
+    "lat": -39.7592234,
+    "lon": -73.2739217
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Cafetería El Colegial"
+  }
+},
+{
+  "type": "way",
+  "id": 948555713,
+  "center": {
+    "lat": -39.8461515,
+    "lon": -73.3928672
+  },
+  "tags": {
+    "addr:city": "Los Molinos",
+    "addr:street": "Avenida Héroes Navales",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "El Coral"
+  }
+},
+{
+  "type": "way",
+  "id": 1014099094,
+  "center": {
+    "lat": -39.8108192,
+    "lon": -73.2513790
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Los Robles",
+    "amenity": "fast_food",
+    "building": "retail",
+    "building:levels": "2",
+    "cuisine": "coffee_shop",
+    "name": "Upita!",
+    "roof:shape": "hipped"
+  }
+},
+{
+  "type": "way",
+  "id": 1089518205,
+  "center": {
+    "lat": -39.8195946,
+    "lon": -73.2455245
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:housenumber": "921",
+    "addr:street": "Phillippi",
+    "amenity": "cafe",
+    "building": "house",
+    "name": "Cromo Café"
+  }
+},
+{
+  "type": "way",
+  "id": 1093454061,
+  "center": {
+    "lat": -39.8351828,
+    "lon": -73.2183242
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Francia",
+    "amenity": "fast_food",
+    "building": "house",
+    "cuisine": "burger",
+    "name": "Apetitizos"
+  }
+},
+{
+  "type": "way",
+  "id": 1112593530,
+  "center": {
+    "lat": -39.8115010,
+    "lon": -73.2392063
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "653",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Avenida Arturo Prat",
+    "amenity": "restaurant",
+    "area": "yes",
+    "building": "house",
+    "cuisine": "steak_house",
+    "name": "La Parrilla de Thor"
+  }
+},
+{
+  "type": "way",
+  "id": 1123426054,
+  "center": {
+    "lat": -39.8118762,
+    "lon": -73.2408357
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Carlos Anwandter",
+    "amenity": "cafe",
+    "building": "yes",
+    "name": "Café Latinoamericano"
+  }
+},
+{
+  "type": "way",
+  "id": 1207647436,
+  "center": {
+    "lat": -39.8114055,
+    "lon": -73.2410766
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "538",
+    "addr:postcode": "5110244",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Carlos Anwandter",
+    "amenity": "cafe",
+    "area": "yes",
+    "cuisine": "fish;sandwich;regional;international;crepe;cake;tea;local;coffee_shop;pasta;deli;chicken",
+    "internet_access": "wlan",
+    "name:es": "Café Chocolatte",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "phone": "+56632290303"
+  }
+},
+{
+  "type": "way",
+  "id": 1224661585,
+  "center": {
+    "lat": -39.8286763,
+    "lon": -73.2443991
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:country": "CL",
+    "addr:district": "Valdivia",
+    "addr:housenumber": "560",
+    "addr:state": "Región de Los Ríos",
+    "addr:street": "Santiago Bueras",
+    "amenity": "restaurant",
+    "brewery": "various",
+    "building": "yes",
+    "name": "Medieval",
+    "name:en": "Medieval",
+    "name:es": "Medieval"
+  }
+},
+{
+  "type": "way",
+  "id": 1324901688,
+  "center": {
+    "lat": -39.8315852,
+    "lon": -73.2384187
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Tornagaleones",
+    "amenity": "cafe",
+    "building": "house"
+  }
+},
+{
+  "type": "way",
+  "id": 1340158063,
+  "center": {
+    "lat": -39.8312997,
+    "lon": -73.2378690
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Carlos Haverbeck",
+    "amenity": "fast_food",
+    "building": "house",
+    "cuisine": "sandwich",
+    "drive_through": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1347418444,
+  "center": {
+    "lat": -39.8243018,
+    "lon": -73.2179185
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Ecuador",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "chinese",
+    "name": "Minory",
+    "phone": "+56632210200"
+  }
+},
+{
+  "type": "way",
+  "id": 1350535154,
+  "center": {
+    "lat": -39.7536882,
+    "lon": -73.3372691
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Restaurante Antü-Küyen"
+  }
+},
+{
+  "type": "way",
+  "id": 1497588826,
+  "center": {
+    "lat": -39.8368898,
+    "lon": -73.2342871
+  },
+  "tags": {
+    "addr:city": "Valdivia",
+    "addr:street": "Avenida Pedro Montt",
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "peruvian",
+    "name": "La Calesa"
+  }
+}
+
+  ]
+}
