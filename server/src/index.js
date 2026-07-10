@@ -12,8 +12,15 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: process.env.CLIENT_URL || '*',
+  credentials: true,
+}));
 app.use(express.json());
+
+app.get('/health', (req, res) => {
+  res.json({ status: 'ok', project: 'MapValdivia' });
+});
 
 app.get('/api/health', (req, res) => {
   res.json({ estado: 'ok', servicio: 'MapValdivia API' });

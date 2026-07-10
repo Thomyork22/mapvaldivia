@@ -9,7 +9,11 @@ export async function getLocales(req, res) {
 
     if (categoria) {
       valores.push(categoria);
-      condiciones.push(`l.categoria_id = $${valores.length}`);
+      if (/^\d+$/.test(categoria)) {
+        condiciones.push(`l.categoria_id = $${valores.length}`);
+      } else {
+        condiciones.push(`c.nombre ILIKE $${valores.length}`);
+      }
     }
     if (precio) {
       valores.push(precio);
