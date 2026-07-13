@@ -6,6 +6,25 @@ import MapaBase from '../components/Mapa/MapaBase';
 import MarkerPin from '../components/Mapa/MarkerPin';
 import BotonFavorito from '../components/UI/BotonFavorito';
 
+function IconoNavegacion() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="m3 11 18-8-8 18-2.5-7.5L3 11Z" />
+    </svg>
+  );
+}
+
+function IconoCompartir() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="18" cy="5" r="2.5" />
+      <circle cx="6" cy="12" r="2.5" />
+      <circle cx="18" cy="19" r="2.5" />
+      <path d="M8.2 10.7 15.8 6.3M8.2 13.3l7.6 4.4" />
+    </svg>
+  );
+}
+
 function Estrellas({ valor, alCambiar }) {
   return (
     <div className="flex gap-1">
@@ -36,6 +55,7 @@ export default function Local() {
   const [comentario, setComentario] = useState('');
   const [enviando, setEnviando] = useState(false);
   const [mensaje, setMensaje] = useState('');
+  const [toast, setToast] = useState('');
 
   async function cargarDatos() {
     const [{ data: localData }, { data: resenasData }] = await Promise.all([
@@ -50,6 +70,36 @@ export default function Local() {
   useEffect(() => {
     cargarDatos();
   }, [id]);
+
+  useEffect(() => {
+    if (!toast) return undefined;
+    const timer = setTimeout(() => setToast(''), 2500);
+    return () => clearTimeout(timer);
+  }, [toast]);
+
+  async function handleCompartir() {
+    const datos = {
+      title: local.nombre,
+      text: local.descripcion?.slice(0, 120) || `Descubre ${local.nombre} en MapValdivia`,
+      url: window.location.href,
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(datos);
+      } catch {
+        // el usuario canceló el share, no hacer nada
+      }
+      return;
+    }
+
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setToast('¡Enlace copiado!');
+    } catch {
+      setToast('No se pudo copiar el enlace');
+    }
+  }
 
   async function handleSubmit(e) {
     e.preventDefault();
@@ -106,7 +156,17 @@ export default function Local() {
               Verificado ✓
             </span>
           )}
-          <BotonFavorito localId={local.id} className="text-piedra ml-auto" />
+          <div className="ml-auto flex items-center gap-3">
+            <button
+              type="button"
+              onClick={handleCompartir}
+              aria-label="Compartir"
+              className="text-piedra hover:text-hueso transition-all duration-200 ease-out hover:scale-110 active:scale-95"
+            >
+              <IconoCompartir />
+            </button>
+            <BotonFavorito localId={local.id} className="text-piedra" />
+          </div>
         </div>
         <p className="text-sm font-semibold mt-1" style={{ color: local.categoria_color }}>
           {local.categoria_nombre}
@@ -119,6 +179,16 @@ export default function Local() {
           {local.telefono && <p>{local.telefono}</p>}
           {local.instagram && <p>{local.instagram}</p>}
         </div>
+
+        <a
+          href={`https://www.google.com/maps/dir/?api=1&destination=${local.latitud},${local.longitud}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 w-full flex items-center justify-center gap-2 bg-laton text-ink font-bold text-sm py-3 rounded-lg shadow-lg shadow-laton/20 hover:bg-latonSoft hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 ease-out"
+        >
+          <IconoNavegacion />
+          Cómo llegar
+        </a>
       </div>
 
       <div className="h-64 rounded-lg overflow-hidden border border-white/5">
@@ -180,6 +250,12 @@ export default function Local() {
           )}
         </div>
       </section>
+
+      {toast && (
+        <div className="fixed bottom-24 sm:bottom-6 left-1/2 -translate-x-1/2 z-[1200] bg-basaltHigh border border-white/10 text-hueso text-sm font-semibold px-4 py-2.5 rounded-full shadow-2xl shadow-black/50 animate-fade-in">
+          {toast}
+        </div>
+      )}
     </div>
   );
 }
