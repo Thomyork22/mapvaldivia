@@ -1,4 +1,4 @@
-const SECTORES = ['Centro', 'Las Ánimas', 'Las Gaviotas', 'Niebla'];
+const SECTORES = ['Centro', 'Las Ánimas', 'Las Gaviotas', 'Niebla', 'Corral', 'Isla Teja'];
 
 export default function FiltroSector({ sectorSeleccionado, onCambiar }) {
   return (
