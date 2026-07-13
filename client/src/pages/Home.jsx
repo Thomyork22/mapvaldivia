@@ -8,27 +8,64 @@ import TarjetaRuta from '../components/Tarjetas/TarjetaRuta';
 import { useLocales } from '../hooks/useLocales';
 import { useRutas } from '../hooks/useRutas';
 
+function IconoBusqueda() {
+  return (
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="11" cy="11" r="7" />
+      <path d="m20 20-3.5-3.5" />
+    </svg>
+  );
+}
+
 export default function Home() {
   const [categoria, setCategoria] = useState(null);
   const [precio, setPrecio] = useState(null);
   const [sector, setSector] = useState(null);
+  const [busqueda, setBusqueda] = useState('');
   const [sheetAbierto, setSheetAbierto] = useState(false);
 
   const filtros = useMemo(() => ({ categoria, precio, sector }), [categoria, precio, sector]);
   const { locales, cargando } = useLocales(filtros);
   const { rutas } = useRutas();
 
+  const localesFiltrados = useMemo(() => {
+    const termino = busqueda.trim().toLowerCase();
+    if (!termino) return locales;
+    return locales.filter((local) => local.nombre.toLowerCase().includes(termino));
+  }, [locales, busqueda]);
+
   return (
     <div className="relative flex-1 min-h-0 overflow-hidden">
       <MapaBase center={CENTRO_VALDIVIA} zoom={13} className="h-full w-full">
-        {locales.map((local) => (
+        {localesFiltrados.map((local) => (
           <MarkerPin key={local.id} local={local} />
         ))}
       </MapaBase>
 
-      {/* Rail flotante — filtro de categoría, anclado arriba como señalética */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] max-w-[92vw] animate-fade-in">
-        <div className="bg-ink/85 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl shadow-black/40 overflow-x-auto scrollbar-hide">
+      {/* Rail flotante — buscador + filtro de categoría, anclados arriba como señalética */}
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] w-[92vw] max-w-md space-y-2 animate-fade-in">
+        <div className="bg-ink/85 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl shadow-black/40 flex items-center gap-2 px-3.5 py-2.5">
+          <span className="text-piedra flex-shrink-0">
+            <IconoBusqueda />
+          </span>
+          <input
+            type="text"
+            value={busqueda}
+            onChange={(e) => setBusqueda(e.target.value)}
+            placeholder="Buscar un local por nombre…"
+            className="bg-transparent outline-none text-sm text-hueso placeholder:text-piedra flex-1 min-w-0"
+          />
+          {busqueda && (
+            <button
+              onClick={() => setBusqueda('')}
+              aria-label="Limpiar búsqueda"
+              className="text-piedra hover:text-hueso transition-colors flex-shrink-0 text-lg leading-none"
+            >
+              ×
+            </button>
+          )}
+        </div>
+        <div className="bg-ink/85 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl shadow-black/40 overflow-x-auto scrollbar-hide max-w-[92vw]">
           <FiltroCategoria categoriaSeleccionada={categoria} onCambiar={setCategoria} compact />
         </div>
       </div>
@@ -49,7 +86,7 @@ export default function Home() {
               Rutas temáticas
             </span>
             <span className="text-piedra text-xs font-mono flex items-center gap-1.5">
-              {cargando ? '…' : `${locales.length} locales`}
+              {cargando ? '…' : `${localesFiltrados.length} locales`}
               <span
                 className={`inline-block transition-transform duration-200 ease-out ${sheetAbierto ? 'rotate-180' : ''}`}
               >
