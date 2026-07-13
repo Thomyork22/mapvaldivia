@@ -22,6 +22,7 @@ export default function Home() {
   const [precio, setPrecio] = useState(null);
   const [sector, setSector] = useState(null);
   const [busqueda, setBusqueda] = useState('');
+  const [soloJoyas, setSoloJoyas] = useState(false);
   const [sheetAbierto, setSheetAbierto] = useState(false);
 
   const filtros = useMemo(() => ({ categoria, precio, sector }), [categoria, precio, sector]);
@@ -30,9 +31,12 @@ export default function Home() {
 
   const localesFiltrados = useMemo(() => {
     const termino = busqueda.trim().toLowerCase();
-    if (!termino) return locales;
-    return locales.filter((local) => local.nombre.toLowerCase().includes(termino));
-  }, [locales, busqueda]);
+    return locales.filter((local) => {
+      if (termino && !local.nombre.toLowerCase().includes(termino)) return false;
+      if (soloJoyas && !local.es_joya_oculta) return false;
+      return true;
+    });
+  }, [locales, busqueda, soloJoyas]);
 
   return (
     <div className="relative flex-1 min-h-0 overflow-hidden">
@@ -65,8 +69,18 @@ export default function Home() {
             </button>
           )}
         </div>
-        <div className="bg-ink/85 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl shadow-black/40 overflow-x-auto scrollbar-hide max-w-[92vw]">
+        <div className="bg-ink/85 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl shadow-black/40 overflow-x-auto scrollbar-hide max-w-[92vw] flex items-center gap-1.5">
           <FiltroCategoria categoriaSeleccionada={categoria} onCambiar={setCategoria} compact />
+          <button
+            onClick={() => setSoloJoyas((v) => !v)}
+            className={`flex items-center gap-1 rounded-md font-semibold border transition-all duration-200 ease-out whitespace-nowrap hover:scale-105 active:scale-95 px-2.5 py-1 text-[11px] flex-shrink-0 ${
+              soloJoyas
+                ? 'bg-laton text-ink border-laton shadow-[0_3px_10px_rgba(169,122,60,0.4)]'
+                : 'text-piedra border-white/10 hover:border-laton/50'
+            }`}
+          >
+            ⭐ Joyas Ocultas
+          </button>
         </div>
       </div>
 

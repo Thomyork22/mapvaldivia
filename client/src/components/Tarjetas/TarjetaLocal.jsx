@@ -32,6 +32,11 @@ export default function TarjetaLocal({ local }) {
         <p className="text-piedra text-xs font-mono mt-1 truncate">
           {local.sector} · {local.precio_rango}
         </p>
+        {local.es_joya_oculta && (
+          <span className="inline-flex items-center gap-1 mt-1 text-[10px] font-bold text-laton">
+            ⭐ Joya Oculta
+          </span>
+        )}
       </div>
       <BotonFavorito localId={local.id} className="absolute top-3 right-3 text-piedra" />
     </Link>
