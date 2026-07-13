@@ -5,19 +5,10 @@ import { Link } from 'react-router-dom';
 function crearIconoColor(color = '#A97A3C') {
   return divIcon({
     className: '',
-    html: `
-      <div style="
-        width: 24px; height: 24px;
-        background: ${color};
-        border: 2px solid #1C1B18;
-        border-radius: 50% 50% 50% 0;
-        transform: rotate(-45deg);
-        box-shadow: 0 2px 5px rgba(0,0,0,0.45);
-      "></div>
-    `,
-    iconSize: [24, 24],
-    iconAnchor: [12, 24],
-    popupAnchor: [0, -24],
+    html: `<div class="pin-marker" style="background:${color};"></div>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 26],
+    popupAnchor: [0, -26],
   });
 }
 
@@ -27,20 +18,30 @@ export default function MarkerPin({ local }) {
 
   return (
     <Marker position={posicion} icon={crearIconoColor(color)}>
-      <Popup>
-        <div className="min-w-[140px]">
-          <p className="font-display font-bold text-[15px] normal-case tracking-normal text-hueso leading-tight">
-            {local.nombre}
-          </p>
-          <p className="text-xs font-semibold mt-1" style={{ color }}>
-            {local.categoria_icono} {local.categoria_nombre}
-          </p>
-          <Link
-            to={`/local/${local.id}`}
-            className="inline-block mt-2 text-xs font-bold text-laton hover:text-latonSoft"
-          >
-            Ver más →
-          </Link>
+      <Popup minWidth={190} maxWidth={230}>
+        <div className="min-w-[180px]">
+          <div className="h-1.5" style={{ backgroundColor: color }} />
+          <div className="px-3.5 pt-2.5 pb-3">
+            <p className="font-display font-bold text-[20px] normal-case tracking-normal text-hueso leading-tight">
+              {local.nombre}
+            </p>
+            <span
+              className="inline-flex items-center gap-1 mt-1.5 px-2 py-0.5 rounded-full text-[11px] font-bold"
+              style={{ backgroundColor: `${color}26`, color }}
+            >
+              {local.categoria_icono} {local.categoria_nombre}
+            </span>
+            <p className="text-piedra text-xs font-mono mt-2">
+              {local.sector} {local.precio_rango ? `· ${local.precio_rango}` : ''}
+            </p>
+            <Link
+              to={`/local/${local.id}`}
+              className="inline-flex items-center gap-1 mt-3 px-3 py-1.5 rounded-full text-xs font-bold text-ink transition-all duration-200 ease-out hover:scale-105 hover:brightness-110"
+              style={{ backgroundColor: color }}
+            >
+              Ver local →
+            </Link>
+          </div>
         </div>
       </Popup>
     </Marker>

@@ -16,13 +16,14 @@ export default function FiltroCategoria({ categoriaSeleccionada, onCambiar, comp
             <button
               key={cat.id}
               onClick={() => onCambiar(activo ? null : cat.id)}
-              className={`flex items-center gap-1 rounded-md font-semibold border transition-colors whitespace-nowrap ${
+              className={`flex items-center gap-1 rounded-md font-semibold border transition-all duration-200 ease-out whitespace-nowrap hover:scale-105 active:scale-95 ${
                 compact ? 'px-2.5 py-1 text-[11px]' : 'px-3 py-1.5 text-xs'
               }`}
               style={{
                 backgroundColor: activo ? cat.color : 'transparent',
                 borderColor: cat.color,
                 color: activo ? '#F2ECE0' : cat.color,
+                boxShadow: activo ? `0 3px 10px ${cat.color}55` : 'none',
               }}
             >
               <span>{cat.icono}</span>

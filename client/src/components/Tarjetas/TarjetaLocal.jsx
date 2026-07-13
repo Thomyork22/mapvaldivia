@@ -6,7 +6,7 @@ export default function TarjetaLocal({ local }) {
   return (
     <Link
       to={`/local/${local.id}`}
-      className="flex gap-3 bg-basalt rounded-lg p-3 border border-white/5 hover:border-laton/40 transition-colors"
+      className="flex gap-3 bg-basalt rounded-lg p-3 border border-white/5 hover:border-laton/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/30 transition-all duration-200 ease-out"
     >
       <div className="relative flex-shrink-0">
         <img

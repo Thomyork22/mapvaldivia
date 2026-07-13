@@ -28,6 +28,9 @@ export default function Navbar() {
           <NavLink to="/" className={linkClase} end>
             Mapa
           </NavLink>
+          <NavLink to="/rutas" className={linkClase}>
+            Rutas
+          </NavLink>
           {esPropietario && (
             <NavLink to="/dashboard" className={linkClase}>
               Mi Panel

@@ -27,29 +27,34 @@ export default function Home() {
       </MapaBase>
 
       {/* Rail flotante — filtro de categoría, anclado arriba como señalética */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] max-w-[92vw]">
-        <div className="bg-ink border border-white/10 rounded-lg p-1.5 shadow-lg overflow-x-auto">
+      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-[1000] max-w-[92vw] animate-fade-in">
+        <div className="bg-ink/85 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl shadow-black/40 overflow-x-auto scrollbar-hide">
           <FiltroCategoria categoriaSeleccionada={categoria} onCambiar={setCategoria} compact />
         </div>
       </div>
 
       {/* Bandeja inferior — precio, sector y rutas temáticas */}
       <div
-        className={`absolute left-0 right-0 bottom-0 z-[1000] bg-basalt border-t border-white/10 rounded-t-2xl shadow-[0_-8px_24px_rgba(0,0,0,0.35)] transition-[max-height] duration-300 ease-out overflow-hidden ${
+        className={`absolute left-0 right-0 bottom-0 z-[1000] bg-basalt/95 backdrop-blur-xl border-t border-white/10 rounded-t-2xl shadow-[0_-12px_32px_rgba(0,0,0,0.45)] transition-[max-height] duration-300 ease-out overflow-hidden ${
           sheetAbierto ? 'max-h-[70vh]' : 'max-h-[76px]'
         }`}
       >
         <button
           onClick={() => setSheetAbierto((v) => !v)}
-          className="w-full flex flex-col items-center pt-2.5 pb-3 px-4"
+          className="w-full flex flex-col items-center pt-2.5 pb-3 px-4 group"
         >
-          <span className="w-9 h-1 rounded-full bg-white/15 mb-2.5" />
+          <span className="w-9 h-1 rounded-full bg-white/15 group-hover:bg-white/25 transition-colors mb-2.5" />
           <div className="w-full flex items-center justify-between">
             <span className="font-display font-bold text-sm uppercase tracking-wide text-hueso">
               Rutas temáticas
             </span>
-            <span className="text-piedra text-xs font-mono">
-              {cargando ? '…' : `${locales.length} locales`} {sheetAbierto ? '▾' : '▴'}
+            <span className="text-piedra text-xs font-mono flex items-center gap-1.5">
+              {cargando ? '…' : `${locales.length} locales`}
+              <span
+                className={`inline-block transition-transform duration-200 ease-out ${sheetAbierto ? 'rotate-180' : ''}`}
+              >
+                ▾
+              </span>
             </span>
           </div>
         </button>
