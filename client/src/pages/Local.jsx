@@ -4,6 +4,7 @@ import api from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import MapaBase from '../components/Mapa/MapaBase';
 import MarkerPin from '../components/Mapa/MarkerPin';
+import BotonFavorito from '../components/UI/BotonFavorito';
 
 function Estrellas({ valor, alCambiar }) {
   return (
@@ -105,6 +106,7 @@ export default function Local() {
               Verificado ✓
             </span>
           )}
+          <BotonFavorito localId={local.id} className="text-piedra ml-auto" />
         </div>
         <p className="text-sm font-semibold mt-1" style={{ color: local.categoria_color }}>
           {local.categoria_nombre}

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import BotonFavorito from '../UI/BotonFavorito';
 
 export default function TarjetaLocal({ local }) {
   const catColor = local.categoria_color || '#A97A3C';
@@ -6,7 +7,7 @@ export default function TarjetaLocal({ local }) {
   return (
     <Link
       to={`/local/${local.id}`}
-      className="flex gap-3 bg-basalt rounded-lg p-3 border border-white/5 hover:border-laton/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/30 transition-all duration-200 ease-out"
+      className="relative flex gap-3 bg-basalt rounded-lg p-3 border border-white/5 hover:border-laton/40 hover:-translate-y-1 hover:shadow-lg hover:shadow-black/30 transition-all duration-200 ease-out"
     >
       <div className="relative flex-shrink-0">
         <img
@@ -21,8 +22,8 @@ export default function TarjetaLocal({ local }) {
           {local.categoria_icono}
         </span>
       </div>
-      <div className="min-w-0">
-        <p className="font-display font-bold text-base text-hueso truncate normal-case tracking-normal">
+      <div className="min-w-0 flex-1">
+        <p className="font-display font-bold text-base text-hueso truncate normal-case tracking-normal pr-6">
           {local.nombre}
         </p>
         <p className="text-xs font-semibold mt-0.5" style={{ color: catColor }}>
@@ -32,6 +33,7 @@ export default function TarjetaLocal({ local }) {
           {local.sector} · {local.precio_rango}
         </p>
       </div>
+      <BotonFavorito localId={local.id} className="absolute top-3 right-3 text-piedra" />
     </Link>
   );
 }

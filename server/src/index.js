@@ -7,6 +7,7 @@ import localesRoutes from './routes/locales.js';
 import rutasRoutes from './routes/rutas.js';
 import resenasRoutes from './routes/resenas.js';
 import insigniasRoutes from './routes/insignias.js';
+import favoritosRoutes from './routes/favoritos.js';
 
 dotenv.config();
 
@@ -31,6 +32,7 @@ app.use('/api/locales', localesRoutes);
 app.use('/api/rutas', rutasRoutes);
 app.use('/api/resenas', resenasRoutes);
 app.use('/api/insignias', insigniasRoutes);
+app.use('/api/favoritos', favoritosRoutes);
 
 app.use((req, res) => {
   res.status(404).json({ error: 'Ruta no encontrada' });

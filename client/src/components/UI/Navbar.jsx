@@ -31,6 +31,9 @@ export default function Navbar() {
           <NavLink to="/rutas" className={linkClase}>
             Rutas
           </NavLink>
+          <NavLink to="/saved" className={linkClase}>
+            Guardados
+          </NavLink>
           {esPropietario && (
             <NavLink to="/dashboard" className={linkClase}>
               Mi Panel

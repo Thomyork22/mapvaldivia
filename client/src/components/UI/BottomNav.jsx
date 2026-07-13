@@ -21,6 +21,14 @@ function IconoRutas({ activo }) {
   );
 }
 
+function IconoGuardados({ activo }) {
+  return (
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={activo ? 2.4 : 1.8} strokeLinecap="round" strokeLinejoin="round">
+      <path d="M6 3.5h12a1 1 0 0 1 1 1V21l-7-4.5-7 4.5V4.5a1 1 0 0 1 1-1Z" />
+    </svg>
+  );
+}
+
 function IconoPerfil({ activo }) {
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={activo ? 2.4 : 1.8} strokeLinecap="round" strokeLinejoin="round">
@@ -92,6 +100,14 @@ export default function BottomNav() {
             <>
               <IconoRutas activo={isActive} />
               <span className="text-[10px] font-semibold">Rutas</span>
+            </>
+          )}
+        </NavLink>
+        <NavLink to="/saved" className={tabClase}>
+          {({ isActive }) => (
+            <>
+              <IconoGuardados activo={isActive} />
+              <span className="text-[10px] font-semibold">Guardados</span>
             </>
           )}
         </NavLink>

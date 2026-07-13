@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Local from './pages/Local';
 import Ruta from './pages/Ruta';
 import Rutas from './pages/Rutas';
+import Saved from './pages/Saved';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/local/:id" element={<Local />} />
             <Route path="/ruta/:id" element={<Ruta />} />
             <Route path="/rutas" element={<Rutas />} />
+            <Route path="/saved" element={<Saved />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/dashboard" element={<Dashboard />} />
