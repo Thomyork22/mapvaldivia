@@ -68,7 +68,7 @@ export async function getLocalPorId(req, res) {
 export async function crearLocal(req, res) {
   const {
     nombre, descripcion, direccion, sector, latitud, longitud,
-    categoria_id, precio_rango, horario, telefono, instagram, imagen_url,
+    categoria_id, precio_rango, horario, telefono, instagram, imagen_url, historia,
   } = req.body;
 
   if (!nombre || latitud === undefined || longitud === undefined) {
@@ -78,10 +78,10 @@ export async function crearLocal(req, res) {
   try {
     const resultado = await pool.query(
       `INSERT INTO locales
-        (nombre, descripcion, direccion, sector, latitud, longitud, categoria_id, precio_rango, horario, telefono, instagram, imagen_url, usuario_id)
-       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13)
+        (nombre, descripcion, direccion, sector, latitud, longitud, categoria_id, precio_rango, horario, telefono, instagram, imagen_url, historia, usuario_id)
+       VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14)
        RETURNING *`,
-      [nombre, descripcion, direccion, sector, latitud, longitud, categoria_id, precio_rango, horario, telefono, instagram, imagen_url, req.usuario.id]
+      [nombre, descripcion, direccion, sector, latitud, longitud, categoria_id, precio_rango, horario, telefono, instagram, imagen_url, historia, req.usuario.id]
     );
 
     res.status(201).json(resultado.rows[0]);
@@ -106,7 +106,7 @@ export async function actualizarLocal(req, res) {
 
     const {
       nombre, descripcion, direccion, sector, latitud, longitud,
-      categoria_id, precio_rango, horario, telefono, instagram, imagen_url,
+      categoria_id, precio_rango, horario, telefono, instagram, imagen_url, historia,
     } = req.body;
 
     const resultado = await pool.query(
@@ -122,10 +122,11 @@ export async function actualizarLocal(req, res) {
         horario = COALESCE($9, horario),
         telefono = COALESCE($10, telefono),
         instagram = COALESCE($11, instagram),
-        imagen_url = COALESCE($12, imagen_url)
-       WHERE id = $13
+        imagen_url = COALESCE($12, imagen_url),
+        historia = COALESCE($13, historia)
+       WHERE id = $14
        RETURNING *`,
-      [nombre, descripcion, direccion, sector, latitud, longitud, categoria_id, precio_rango, horario, telefono, instagram, imagen_url, id]
+      [nombre, descripcion, direccion, sector, latitud, longitud, categoria_id, precio_rango, horario, telefono, instagram, imagen_url, historia, id]
     );
 
     res.json(resultado.rows[0]);

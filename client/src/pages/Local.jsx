@@ -191,6 +191,15 @@ export default function Local() {
         </a>
       </div>
 
+      {local.historia && (
+        <section className="bg-basalt rounded-lg p-4 border border-white/5">
+          <h2 className="font-display font-bold text-xl uppercase tracking-wide text-hueso mb-3">
+            Nuestra Historia
+          </h2>
+          <p className="text-hueso leading-relaxed whitespace-pre-line">{local.historia}</p>
+        </section>
+      )}
+
       <div className="h-64 rounded-lg overflow-hidden border border-white/5">
         <MapaBase center={[Number(local.latitud), Number(local.longitud)]} zoom={15}>
           <MarkerPin local={local} />

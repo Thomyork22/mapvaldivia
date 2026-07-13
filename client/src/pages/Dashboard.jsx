@@ -25,6 +25,7 @@ const LOCAL_VACIO = {
   telefono: '',
   instagram: '',
   imagen_url: '',
+  historia: '',
 };
 
 export default function Dashboard() {
@@ -77,6 +78,7 @@ export default function Dashboard() {
       telefono: local.telefono || '',
       instagram: local.instagram || '',
       imagen_url: local.imagen_url || '',
+      historia: local.historia || '',
     });
   }
 
@@ -228,6 +230,13 @@ export default function Dashboard() {
               value={form.imagen_url}
               onChange={(e) => handleChange('imagen_url', e.target.value)}
               className="w-full bg-ink border border-white/10 rounded-md p-2.5 text-hueso text-sm"
+            />
+            <textarea
+              placeholder="Nuestra historia (opcional)"
+              rows={3}
+              value={form.historia}
+              onChange={(e) => handleChange('historia', e.target.value)}
+              className="w-full bg-ink border border-white/10 rounded-md p-2.5 text-hueso text-sm resize-none"
             />
 
             {mensaje && <p className="text-laton text-xs">{mensaje}</p>}
